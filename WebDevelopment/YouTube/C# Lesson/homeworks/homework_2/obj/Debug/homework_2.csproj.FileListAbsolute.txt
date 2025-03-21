@@ -1,7 +1,0 @@
-D:\My files\Web development\YouTube\C# Lesson\homeworks\homework_2\bin\Debug\homework_2.exe.config
-D:\My files\Web development\YouTube\C# Lesson\homeworks\homework_2\bin\Debug\homework_2.exe
-D:\My files\Web development\YouTube\C# Lesson\homeworks\homework_2\bin\Debug\homework_2.pdb
-D:\My files\Web development\YouTube\C# Lesson\homeworks\homework_2\obj\Debug\homework_2.csproj.AssemblyReference.cache
-D:\My files\Web development\YouTube\C# Lesson\homeworks\homework_2\obj\Debug\homework_2.csproj.CoreCompileInputs.cache
-D:\My files\Web development\YouTube\C# Lesson\homeworks\homework_2\obj\Debug\homework_2.exe
-D:\My files\Web development\YouTube\C# Lesson\homeworks\homework_2\obj\Debug\homework_2.pdb

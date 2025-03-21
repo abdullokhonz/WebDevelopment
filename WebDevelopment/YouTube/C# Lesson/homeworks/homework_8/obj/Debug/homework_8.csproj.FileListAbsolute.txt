@@ -1,7 +1,0 @@
-D:\My files\Web development\YouTube\C# Lesson\homeworks\homework_8\bin\Debug\homework_8.exe.config
-D:\My files\Web development\YouTube\C# Lesson\homeworks\homework_8\bin\Debug\homework_8.exe
-D:\My files\Web development\YouTube\C# Lesson\homeworks\homework_8\bin\Debug\homework_8.pdb
-D:\My files\Web development\YouTube\C# Lesson\homeworks\homework_8\obj\Debug\homework_8.csproj.AssemblyReference.cache
-D:\My files\Web development\YouTube\C# Lesson\homeworks\homework_8\obj\Debug\homework_8.csproj.CoreCompileInputs.cache
-D:\My files\Web development\YouTube\C# Lesson\homeworks\homework_8\obj\Debug\homework_8.exe
-D:\My files\Web development\YouTube\C# Lesson\homeworks\homework_8\obj\Debug\homework_8.pdb
