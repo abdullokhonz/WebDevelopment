@@ -1,0 +1,41 @@
+*{
+    background-color: blueviolet;
+}
+
+ul{
+    display: inline-block;
+    list-style: none;
+    text-align: left;
+    overflow: hidden;
+}
+
+h1{
+    color: rgb(218, 218, 218);
+}
+
+li{
+    float: inline-end;
+    border: 1px white solid;
+}
+
+li>a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+}
+
+li>a:hover{
+    background-color: rgb(137, 137, 137);
+}
+
+div>p{
+    text-align: right;
+    padding-top: 20px;
+    float: right;
+}
+
+div>p>a{
+    color: white;
+    text-decoration: none;;
+}

@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(pink, cornflowerblue, violet, salmon);
+    overflow-x: hidden;
+}
+
+header {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 25px;
+    list-style: none;
+}
+
+ul li a {
+    color:black;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo img {
+    width: 130px;
+    height: 100px;
+}
+
+.background {
+    background-image: url(./images/597b1c71846aa-zfkl.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-shadow: 2px 2px black;
+    width: 100%;
+    height: 600px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    gap: 20px;
+}
+
+.about {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 45px;
+}
+
+.about p {
+    font-size: 27px;
+}
+
+.f-about{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.f-about img {
+    width: 450px;
+    height: 350px;
+}
+
+.text{
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    margin-bottom: 30px;
+    width: 900px;
+}
+
+.text span{
+    margin-left: 50px;
+}
+
+.main-div {
+    margin-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.main-div h2 {
+    font-size: 42px;
+}
+
+.button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 15px 50px;
+    border: 2px solid black;
+    font-weight: 600;
+    transition: padding 0.1s linear;
+}
+
+.button:hover {
+    padding: 12px 45px;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-divy{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.divy {
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.omg img {
+    width: 250px;
+    height: 200px;
+}
+
+.omg-text {
+    width: 350px;
+}
+
+.main-biv {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.biv-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.biv-text h3 {
+    font-size: 42px;
+    text-align: center;
+}
+
+.biv-text p {
+    font-size: 24px;
+    text-align: center;
+    margin: 0 200px;
+}
+
+.one-img{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: center;
+}
+
+.two-img img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.cafe {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.about-cafe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* text-align: left; */
+}
+
+.cafe h3 {
+    font-size: 42px;
+}
+
+.about-cafe p {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px 150px;
+    font-size: 18px;
+}
+
+.about-cafe img {
+    width: 940px;
+    height: 450px;
+}
+
+.contact {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.contact h3 {
+    font-size: 42px;
+}
+
+.about-contact {
+    margin-top: 30px;
+}
+
+.about-contact h4 {
+    font-size: 24px;
+}
+
+.about-contact p {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}

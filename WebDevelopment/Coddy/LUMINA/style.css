@@ -1,0 +1,96 @@
+body{
+    background-color: darkgrey;
+}
+
+.image-container {
+    position: relative;
+    width: 60%;
+    /* или любая другая ширина */
+    padding: 100px 0px 0px 550px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+/* прозрачный черный цвет */
+    z-index: 1;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    /* цвет текста */
+    z-index: 2;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.text-overlay h2 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.text-overlay p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+img {
+    width: 350px;
+    border: solid 10px white;
+}
+
+.text-container {
+    position: relative;
+    width: 60%;
+    /* или любая другая ширина */
+    padding: 40px 0px 0px 550px;
+}
+
+.background-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    /* цвет текста */
+    z-index: 2;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.text-container>h2 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.image-container>p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}

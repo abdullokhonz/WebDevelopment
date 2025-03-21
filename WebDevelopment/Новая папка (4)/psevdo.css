@@ -1,0 +1,29 @@
+button{
+  background-color: blueviolet;
+  color: white;
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+button:hover{
+  background-color: blue;
+  width: 200px;
+}
+
+button:active{
+  background-color: green;
+}
+
+input:focus{
+  border: 5px solid green;
+  background-color: salmon;
+}
+
+li:first-child{
+  color: red;
+}
+
+li:last-child{
+  color: green;
+}

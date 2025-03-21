@@ -1,0 +1,110 @@
+/*div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: colorPaint;
+    animation-duration: 2.5s;
+}
+
+@keyframes colorPaint {
+    form {
+        background-color: red;
+    }
+    to {
+        background-color: yellow;
+    }
+}*/
+
+/*div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: nextAnim;
+    animation-duration: 5s;
+    rotate: 45deg;
+    margin: 48px 36px;
+    /*animation-delay: 5s;*/ /*Задержка*/
+    /*animation-iteration-count: infinite; /*Бесконечный
+    /*animation-direction: reverse;*/ /*Наоборот
+}*/
+
+@keyframes nextAnim {
+    0% {
+        width: 125px;
+        height: 125px;
+        background-color: red;
+        border-radius: 0%;
+        margin-left: 0%;
+    }
+    25% {
+        width: 150px;
+        height: 150px;
+        background-color: orange;
+        border-radius: 25%;
+        margin-left: 25%;
+    }
+    50% {
+        width: 150px;
+        height: 150px;
+        background-color: yellow;
+        border-radius: 50%;
+        margin-left: 50%;
+    }
+    75% {
+        width: 175px;
+        height: 175px;
+        background-color: greenyellow;
+        border-radius: 75%;
+        margin-left: 25%;
+    }
+    100% {
+        width: 200px;
+        height: 200px;
+        background-color: green;
+        border-radius: 100%;
+        margin-left: 0%;
+    }
+}
+
+.one {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: nextAnim;
+    animation-duration: 5s;
+    rotate: 45deg;
+    margin: 48px 36px;
+}
+
+.two {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: nextAnim;
+    animation-duration: 5s;
+    rotate: 45deg;
+    margin: 48px 36px;
+    animation-delay: 5s;
+}
+
+.three {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: nextAnim;
+    animation-duration: 5s;
+    rotate: 45deg;
+    margin: 48px 36px;
+    animation-delay: 10s;
+}
+
+.four {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: nextAnim;
+    animation-duration: 5s;
+    rotate: 45deg;
+    margin: 48px 36px;
+    animation-delay: 15s;
+}

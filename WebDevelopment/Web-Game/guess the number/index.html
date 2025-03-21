@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Угадай число</title>
+    <link rel="shortcut icon" href="icons/number.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="start-window container" id="start-window">
+        <h1 class="title">Выберите&nbsp;число</h1>
+        <label class="fields-container">
+            <p class="text-above-field">От:</p>
+            <input class="fields" type="number" id="min-num" placeholder="Мин. целое число" required>
+        </label>
+        <label class="fields-container">
+            <p class="text-above-field">До:</p>
+            <input class="fields" type="number" id="max-num" placeholder="Макс. целое число" required>
+        </label>
+        <button type="submit" class="btn" id="confirm-button"><span>Подтвердить</span></button>
+    </div>
+
+    <div class="main-window container" id="main-window">
+        <div class="titles">
+            <h1 class="title" id="title">Угадайте&nbsp;число</h1>
+            <p class="sub-title" id="sub-title"></p>
+        </div>
+
+        <div class="scoreboards">
+            <div class="scoreboard">
+                <p>Число:</p>
+                <p id="reply-field">?</p>
+            </div>
+
+            <div class="scoreboard">
+                <p>Результат:</p>
+                <p id="result">?</p>
+            </div>
+
+            <div class="scoreboard">
+                <p>Подсказка:</p>
+                <p id="clue">?</p>
+            </div>
+
+            <div class="scoreboard">
+                <p>Число попыток:</p>
+                <p id="attempt">?</p>
+            </div>
+        </div>
+
+        <div class="playboard">
+            <label class="fields-container" id="fields-container">
+                <p class="text-above-field">Ваше число:</p>
+                <input class="fields" type="number" id="answer" required>
+            </label>
+            <div class="btns">
+                <button type="submit" class="btn" id="reply-button"><span>Проверить</span></button>
+                <button type="reset" class="btn" id="restart"><span>Начать&nbsp;заново</span></button>
+            </div>
+        </div>
+    </div>
+
+    <audio id="oh-no">
+        <source src="audios/oh_no.mp3" type="audio/mp3">
+    </audio>
+    <audio id="wow">
+        <source src="audios/wow.mp3" type="audio/mp3">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web - Snake</title>
+    <link rel="shortcut icon" href="imgs/Snake-Flat-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="result overlay" id="result">
+        <div class="total">
+            <div class="all-text">
+                <div class="text">Total Score:</div><hr data-id="hr">
+                <div class="text">Total Time:</div><hr data-id="hr">
+            </div>
+            <div class="all-text">
+                <div class="text" id="totalScore">0</div><hr data-id="hr">
+                <div class="text" id="totalTime">00:00</div><hr data-id="hr">
+            </div>
+        </div>
+        <button class="restart btn" id="restart">Restart</button>
+    </div>
+    <div class="view-help overlay" id="viewHelp">
+        <div class="all-text">
+            <div class="text">UP:</div><hr data-id="hr">
+            <div class="text">RIGHT:</div><hr data-id="hr">
+            <div class="text">DOWN:</div><hr data-id="hr">
+            <div class="text">LEFT:</div><hr data-id="hr">
+            <div class="text">START / STOP:</div><hr data-id="hr">
+            <div class="text">DARK / LIGHT:</div><hr data-id="hr">
+            <div class="text">RESTART:</div><hr data-id="hr">
+            <div class="text">HELP:</div><hr data-id="hr">
+        </div>
+        <div class="all-text">
+            <div class="text">W / <span><</span></div><hr data-id="hr">
+            <div class="text">D / ></div><hr data-id="hr">
+            <div class="text">S / <span>></span></div><hr data-id="hr">
+            <div class="text">A / <</div><hr data-id="hr">
+            <div class="text">SPACE</div><hr data-id="hr">
+            <div class="text">Q</div><hr data-id="hr">
+            <div class="text">ENTER</div><hr data-id="hr">
+            <div class="text">H / `</div><hr data-id="hr">
+        </div>
+    </div>
+        <div class="help" id="help">?</div>
+        <div class="background" id="background"></div>
+    <div class="ress">
+        <div class="score" id="score">0</div>
+        <div class="timer" id="timer">00:00</div>
+    </div>
+    <div class="game-area" id="gameArea"></div>
+    <button class="startStopBtn btn" id="startStopBtn">Start</button>
+
+    <audio id="backgroundMusic" loop>
+        <source src="audios/back.wav" type="audio/wav">
+    </audio>
+    <audio id="clickMusic">
+        <source src="audios/click.wav" type="audio/wav">
+    </audio>
+    <audio id="gameOverMusic">
+        <source src="audios/game_over.wav" type="audio/wav">
+    </audio>
+    <audio id="eatMusic">
+        <source src="audios/eat.wav" type="audio/wav">
+    </audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>

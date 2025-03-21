@@ -1,0 +1,2 @@
+var s = confirm("Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis porro repellat quam nesciunt praesentium. Corrupti ipsum, nesciunt repellendus recusandae soluta neque architecto, nostrum assumenda odit aut iste amet consequatur. Magnam!?");
+console.log(s);

@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blockCards {
+    display: none;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabs button {
+    margin-top: 15px;
+    width: 800px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+    transition: 0.2s linear;
+}
+
+.tabs button:hover {
+    width: 750px;
+    height: 30px;
+}
+
+.tabs .first::selection {
+    color: white;
+    background: black;
+}
+
+.tabs .second::selection {
+    color: orange;
+    background: black;
+}
+
+.tabs .third::selection {
+    color: lightgreen;
+    background: black;
+}
+
+.tabs .fourth::selection {
+    color: lightblue;
+    background: black;
+}
+
+.tab-panes {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.tab-panes img {
+    width: 800px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid black;
+    cursor: zoom-in;
+
+    transition: 0.2s linear;
+}
+
+.tab-panes img:hover {
+    width: 815px;
+    height: 515px;
+}
+
+.tab-panes img::selection {
+    background: black;
+}

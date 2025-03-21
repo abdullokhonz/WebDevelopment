@@ -1,0 +1,27 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+ul{
+  list-style:none;
+  background-color:greenyellow ;
+  overflow:hidden ;
+}
+
+li{
+  color:white;
+  float:left;
+  border-right: 1px dashed white;
+}
+
+a{
+  color:white;
+  text-decoration:none ;
+  padding:28px 32px;
+}
+
+a:hover{
+  background-color: rgb(60, 82, 60);
+  color:saddlebrown
+}

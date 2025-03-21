@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qwerty {
+    margin-top: 24px;
+}
+
+.qwerty::selection {
+    background-color: gray;
+}

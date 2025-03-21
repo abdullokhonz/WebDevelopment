@@ -1,0 +1,548 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img img{
+    margin-top: 30px;
+    margin-left: 500px;
+}
+.menu{
+    font-family: 'eFootball Stencil';
+    font-size: 24px;
+}
+.menu  a{
+   color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.menu a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 8px;
+    border-radius: 16px;
+}
+.menu ul{
+    justify-content: space-around;
+    margin-top: 40px;
+    list-style: none;
+    display: flex;
+} 
+.konami img{
+    width: 130px;
+    height: 40px;
+    
+}
+.konami p{
+    padding-right: 6px ;
+    font-size: small;
+    color: grey;
+    float: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.button img{
+    width: 38px;
+    height: 38px;
+    margin: 12px;
+}
+.button2 {
+    margin-left: 200px;
+}
+.button2 h2 {
+    font-family: 'eFootball Stencil';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: rgb(116, 0, 0);
+}
+.button2 a {
+    font-family: 'eFootball Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    color: black;
+    margin-left: 35px;
+}
+.pro{
+
+}
+.pro h1{
+    color: rgb(116, 0, 0);
+    text-align: center;
+    font-family: 'eFootball Stencil';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.pro h2{
+    color: rgb(116, 0, 0);
+    text-align: center;font-family: 'eFootball Stencil';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.pro p{
+    text-align: center;
+    display: inline-block;
+    font-family: 'eFootball Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    margin: 50px;
+}
+ .new{
+   word-spacing:12px ;
+    margin-left: 190px;
+    display: inline-block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.new h1{
+    color: rgb(116, 0, 0);
+    text-align: center;
+    font-family: 'eFootball Stencil';
+}
+.new p{
+   font-weight: bolder;
+}
+.sys h1{
+    font-family: 'eFootball Stencil';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: rgb(116, 0, 0);
+    text-align: center;
+    margin-top: 25px;
+}
+.sys h2{
+    font-family: 'eFootball Stencil';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    margin-top: 24px;
+    margin-left: 200px;
+    font-size: 30px;
+}
+.sys p{
+    margin-left: 200px;
+    margin-top: 24px;
+    font-family: 'eFootball Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.sys h2 span{
+    color: black;
+    margin-right: 8px;
+}
+table{
+    border: 2px solid black;
+}
+.first-tr-th{
+    border: 2px solid black;
+    width: 184px;
+    height: 68px;
+    padding: 8px;
+    background-color: grey;
+    font-family: 'eFootball Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    color: white;
+}
+.last-tr-th{
+    border: 2px solid black;
+    width: 184px;
+    height: 42px;
+    padding: 6px 12px;
+    font-family: 'eFootball Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    color: gray;
+}
+.last-tr-th:first-child{
+    background-color: gray;
+    font-family: 'eFootball Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    color: white;
+}
+.sys h3{
+    font-family: 'eFootball Stencil';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    margin-top: 24px;
+    margin-left: 200px;
+    font-size: 24px;
+    color: rgb(116, 0, 0);
+}
+.android-tr-th{
+    border: 2px solid black;
+    width: 692px;
+    height: 74px;
+    padding: 6px 12px;
+    font-family: 'eFootball Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    color: gray;
+}
+.android-tr-th:first-child{
+    width: 230px;
+    height: 74px;
+    padding: 8px;
+    background-color: gray;
+    color: white;
+}
+.ios-tr-th{
+    border: 2px solid black;
+    width: 692px;
+    height: 156px;
+    padding: 6px 12px;
+    font-family: 'eFootball Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    color: gray;
+}
+.ios-tr-th:first-child:first-child{
+    width: 230px;
+    height: 156px;
+    padding: 8px;
+    background-color: gray;
+    color: white;
+}
+.empty-tr-th{
+    border: 2px solid black;
+    width: 350px;
+    height: 33px;
+    padding: 6px;
+    font-family: 'eFootball Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    background-color: gray;
+    color: white;
+}
+.empty-tr-th:first-child{
+    width: 221px;
+    height: 33px;
+    padding: 6px;
+    background-color: gray;
+    color: white;
+}
+.os-tr-th{
+    border: 2px solid black;
+    width: 350px;
+    height: 33px;
+    padding: 6px;
+    font-family: 'eFootball Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    color: gray;
+}
+.os-tr-th:first-child{
+    width: 221px;
+    height: 33px;
+    padding: 6px;
+    background-color: gray;
+    color: white;
+}
+.cpu-tr-th{
+    border: 2px solid black;
+    width: 350px;
+    height: 33px;
+    padding: 6px;
+    font-family: 'eFootball Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    color: gray;
+}
+.cpu-tr-th:first-child{
+    width: 221px;
+    height: 33px;
+    padding: 6px;
+    background-color: gray;
+    color: white;
+}
+.ram-tr-th{
+    border: 2px solid black;
+    width: 350px;
+    height: 33px;
+    padding: 6px;
+    font-family: 'eFootball Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    color: gray;
+}
+.ram-tr-th:first-child{
+    width: 221px;
+    height: 33px;
+    padding: 6px;
+    background-color: gray;
+    color: white;
+}
+.videocard-tr-th{
+    border: 2px solid black;
+    width: 350px;
+    height: 33px;
+    padding: 6px;
+    font-family: 'eFootball Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    color: gray;
+}
+.videocard-tr-th:first-child{
+    width: 221px;
+    height: 33px;
+    padding: 6px;
+    background-color: gray;
+    color: white;
+}
+.net-tr-th{
+    border: 2px solid black;
+    width: 350px;
+    height: 33px;
+    padding: 6px;
+    font-family: 'eFootball Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    color: gray;
+}
+.net-tr-th:first-child{
+    width: 221px;
+    height: 33px;
+    padding: 6px;
+    background-color: gray;
+    color: white;
+}
+.diskspace-tr-th{
+    border: 2px solid black;
+    width: 350px;
+    height: 33px;
+    padding: 6px;
+    font-family: 'eFootball Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    color: gray;
+}
+.diskspace-tr-th:first-child{
+    width: 221px;
+    height: 33px;
+    padding: 6px;
+    background-color: gray;
+    color: white;
+}
+.sob h1{
+    color: rgb(116, 0, 0);
+    font-family: 'eFootball Stencil';
+    text-align: center;
+}
+.sob h2{
+    margin-left: 150px;
+    font-family: 'eFootball Stencil';
+    font-weight: normal;
+    font-size: larger;
+}
+.sob h3{
+    margin-left: 1000px;
+    font-family: 'eFootball Stencil';
+    font-weight: normal;
+    font-size: larger;
+}
+.sob img{
+    margin-left:175px;
+}
+.sob a{
+    font-family: 'eFootball Stencil';
+    margin-left: 600px;
+    padding: 8px;
+    text-decoration: none;
+    border: 2px solid black;
+    color: black;
+    border-radius: 23px;
+}
+.sob a:hover{
+    background-color: black;
+    color: white;
+}
+.event {
+    background-color: black;
+    color: white;
+}
+.event p{
+    font-family: 'eFootball Stencil';
+    text-align: center;
+    font-size:50px;
+}
+.vid video{
+    width: 75%;
+    height: 75%;
+    margin-left: 160px ;
+}
+.vid p{
+     margin-left: 140px ;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.lion h1{
+    color: rgb(116, 0, 0);
+    font-family: 'eFootball Stencil';
+    text-align: center;
+    font-size:50px;
+}
+.lion h3{
+    margin-left: 1000px;
+    font-family: 'eFootball Stencil';  
+}
+.lion img{
+    width: 75%;
+    margin-left: 175px;
+}
+.write h1{
+    /* border: 2px solid black; */
+    font-family: 'eFootball Stencil';
+    margin-left: 100px;
+    margin-right: 200px;
+    color: white;
+    background-color: black;
+    padding: 6px;
+    border-radius: 30px;
+}
+.write h3{
+    margin-left: 150px;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.write img{
+    width: 75%;
+    margin-left: 175px;
+}
+table{
+    font-family: 'eFootball Stencil';
+    margin: auto;
+}
+.end h1{
+    /* border: 2px solid black; */
+    font-family: 'eFootball Stencil';
+    margin-left: 100px;
+    margin-right: 200px;
+    color: white;
+    background-color: black;
+    padding: 6px;
+    border-radius: 30px;
+}
+.end h3{
+    margin-left: 120px;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.words h3{
+    color: rgb(116, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 230px;
+}
+.words h3{
+    color: rgb(116, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 230px;
+}
+.words p{
+    margin-right: 200px;
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 250px;
+}
+.dive h3{
+    color: rgb(116, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin-right: 230px;
+ 
+}
+.gs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gs img {
+    width: 275px;
+    height: 100px;
+    margin: 80px 24px 0px 24px;
+}
+.per{
+    font-family: 'eFootball Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    background-image: url(../фото/efootball-2024-Wallpaper-of-Argentina-Messi-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.per h1 {
+    font-family: 'eFootball Stencil';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 54px;
+    font-size: 36px;
+}
+.per h2 {
+    margin-top: 15px;
+    margin-left: 200px;
+    color: rgb(116, 0, 0);
+    font-size: 20px;
+}
+.per p {
+    margin-top: 12px;
+    margin-left: 220px;
+    font-size: 16px;
+}
+.per p span {
+    margin-right: 40px;
+}
+.per b {
+    font-family: 'eFootball Stencil';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    margin-left: 200px;
+    padding: 10px 992px 10px 12px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.all-per {
+    position: relative;
+}
+.back{
+    width: 100%;
+    height: 6600px;
+    background-color: rgba(0, 0, 150, 0.7);
+    position: absolute;
+}

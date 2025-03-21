@@ -1,0 +1,55 @@
+.table_1{
+  display: flex;
+  justify-content: center;
+}
+
+
+tr:hover{
+  background: #ecd6ee;
+  font-size: 16px;
+}
+thead th{
+  width:25%;
+}
+caption{
+  font-weight: bold;
+  font-size: 24px;
+  text-align-last: left;
+  color:#333;
+  margin-bottom: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+table {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
+  border-collapse: separate;
+  border-spacing: 5px;
+  background: #fff;
+  color: #000000;
+  border: 16px solid #fff;
+  border-radius: 15px;
+}
+table:hover{
+  font-size: 20px;
+  width:500px
+}
+
+th {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  background: #f3d5d7;
+  padding: 20px;
+  font-weight: bold;
+}
+td:hover{
+  font-size: 24px;
+  background-color: rgb(236, 114, 236);
+}

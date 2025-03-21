@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.upgrade {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin: -55px 12px 0px 0px;
+}
+
+.p1 {
+    padding: 13px;
+    margin-left: 11.5px;
+    margin-right: 11.5px;
+    color: white;
+}
+
+.p2 {
+    padding: 13px;
+    margin-left: 11.5px;
+    margin-right: 11.5px;
+    color: white;
+}
+
+.upgrade>a {
+    padding: 13px;
+    margin-left: 11.5px;
+    margin-right: 11.5px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    transition: background-color 0.2s linear;
+}
+
+.upgrade>a:hover {
+    background-color: khaki;
+}
+
+.upgrade span {
+    font-weight: 900;
+    color: khaki;
+}
+
+.panel {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+.scope {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: -10%;
+}
+
+.home {
+    margin-right: 12%;
+    margin-left: 12%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.home a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.home a:hover {
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+}
+
+.tel {
+    margin-right: -10%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tel span {
+    font-weight: 500;
+}
+
+.tel p {
+    font-size: 10px;
+}
+
+.menu {
+    background-position: center;
+    background-image: url(img/pexels-irina-iriser-1366957.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 25px 0px;
+}
+
+.menu h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 100px;
+    color: white; 
+    text-shadow: 2px 4px black;
+}
+
+.menu p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: khaki;
+    text-shadow: 2px 4px black;
+}
+
+.menu span {
+    margin-right: 30px;
+}
+
+.econom {
+    padding: 50px 150px;
+    background-color: rgb(22, 22, 22);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.impr h1 {
+    color: white;
+}
+
+.impr p {
+    color: gray;
+}
+
+.three {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.mission h2 {
+    color: white;
+}
+
+.mission h1 {
+    color: white;
+}
+
+.mission p {
+    color: gray;
+}
+
+.mission h5 {
+    color: white;
+}
+
+.vision h2 {
+    color: white;
+}
+
+.vision h1 {
+    color: white;
+}
+
+.vision p {
+    color: gray;
+}
+
+.vision h5 {
+    color: white;
+}
+
+.commitment h2 {
+    color: white;
+}
+
+.commitment h1 {
+    color: white;
+}
+
+.commitment p {
+    color: gray;
+}
+
+.commitment h5 {
+    color: white;
+}
+
+.offer {
+    padding: 50px 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.we {
+    font-size: 20px;
+}
+
+.offer img {
+    width: 100px;
+    height: 100px;
+}
+
+.offer p {
+    color: gray;
+}
+
+.theend {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 100px 0px;
+}
+
+.left {
+    margin-left: 150px;
+    color: black;
+}
+
+.right {
+    margin-right: 150px;
+    color: black;
+}
+
+.image {
+    margin-top: 25px;
+}
+
+.image img {
+    margin-right: 12px;
+}

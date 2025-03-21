@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }  
+        div::after{
+            content: "big screen";
+            height: 300px;
+            width: 300px;
+            background: black;
+            color: white;
+            display: none;
+        }
+        /*orientation: portrait, landscape*/
+        @media screen and (orientation: portrait){
+            body{
+                background: #000;
+            }
+        }
+        @media screen and (min-width: 768px){
+            div::after{
+                content: 'screen > 768px';
+                background: blue;
+            }
+            body{
+                background: red;
+            }
+        }
+        @media screen and (min-width: 991px){
+            /*CSS для ширины от 991px*/
+            div::after{
+                content: 'screen > 991px';
+                background: darkcyan;
+            }
+        }
+        @media screen and (max-width: 1400px) {
+            div::after{
+                content: 'screen < 1400px';
+                display: block;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

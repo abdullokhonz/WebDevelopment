@@ -1,0 +1,316 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, aqua, yellowgreen, orange);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 50px;
+}
+
+.menu img {
+    width: 72px;
+    height: 72px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    margin-left: 50px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.i {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 64px;
+}
+
+.io {
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    margin: 25px 175px;
+    margin-top: 100px;
+}
+
+.homes {
+    
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.homes h3 {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 100px;
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.5);
+    transition: all .2s linear;
+}
+
+.homes h3:hover {
+    transform: scale(1.1);
+}
+
+.homes a {
+    color: black;
+    text-decoration: none;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 28px;
+}
+
+.social img {
+    width: 28px;
+    height: 28px;
+}
+
+.project {
+    text-align: center;
+}
+
+.project-text {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 64px;
+}
+
+.projects {
+    
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projects h3 {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 100px;
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.5);
+    transition: all .2s linear;
+}
+
+.projects h3:hover {
+    transform: scale(1.1);
+}
+
+.projects a {
+    color: black;
+    text-decoration: none;
+}
+
+.image {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 100px;
+}
+
+.image img {
+    width: 450px;
+    height: 300px;
+    border-radius: 50px;
+    transition: all .5s linear;
+    box-shadow: 10px 10px 30px 20px rgba(0, 0, 0, 0.5);
+    animation: diskotanso .00001s linear infinite;
+}
+
+.image img:hover {
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+@keyframes diskotanso {
+    to {
+        transform: scale(1.25);
+        transform: rotate(360deg);
+    }
+}
+
+.first-img {
+    position: relative;
+    z-index: 3;
+    margin-bottom: 50px;
+}
+
+.second-img {
+    position: absolute;
+    z-index: 4;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.third-img {
+    position: absolute;
+    z-index: 5;
+    margin-top: 400px;
+    margin-left: 425px;
+}
+
+.fourth-img {
+    position: absolute;
+    z-index: 4;
+    margin-top: 150px;
+    margin-left: 700px;
+}
+
+.fifth-img {
+    position: absolute;
+    z-index: 3;
+    margin-left: 900px;
+    margin-bottom: 50px;
+}
+
+.sixth-img {
+    position: absolute;
+    z-index: 3;
+    margin-top: 1050px;
+}
+
+.seventh-img {
+    position: absolute;
+    z-index: 4;
+    margin-left: 150px;
+    margin-top: 850px;
+}
+
+.eightth-img {
+    position: absolute;
+    z-index: 4;
+    margin-left: 700px;
+    margin-top: 850px;
+}
+
+.nineth-img {
+    position: absolute;
+    z-index: 3;
+    margin-left: 900px;
+    margin-top: 1050px;
+}
+
+.glava-o-nas {
+    text-align: center;
+    margin-top: 700px;
+    font-size: 64px;
+}
+
+.text-o-nas h3 {
+    font-size: 21px;
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    padding: 1px 0 75px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+    text-align: center;
+    margin: 100px 200px 0;
+}
+
+.contact h1 {
+    font-size: 64px;
+    margin-bottom: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contacts {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contacts h3 {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 100px;
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.5);
+    transition: all .2s linear;
+}
+
+.contacts h3:hover {
+    transform: scale(1.1);
+}
+
+.contacts a {
+    color: black;
+    text-decoration: none;
+}
+
+.social-contact {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.social-contact img {
+    width: 28px;
+    height: 28px;
+}
+
+.khth {
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.khth a {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+}
+
+.khth img {
+    width: 72px;
+    height: 72px;
+}

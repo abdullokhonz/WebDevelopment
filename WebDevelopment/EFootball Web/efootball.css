@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'eFootball Stencil';
+}
+
+.konami {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 37px;
+}
+
+.konami img {
+    width: 130px;
+    height: 37px;
+}
+
+.konami p {
+    color: #C0C0C0;
+    margin-right: 12px;
+}

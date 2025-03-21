@@ -1,0 +1,58 @@
+.diamond{
+  width: 200px;
+  height: 200px;
+  border: solid red 1px;
+  position: relative;
+}
+
+.triangle{
+  position: absolute;
+}
+
+.triangle:nth-child(1){
+  border-bottom: 100px solid red;
+  top: 0;
+  left: 0;
+}
+
+.triangle:nth-child(2){
+  border-bottom: 100px solid red;
+  bottom: 0;
+  left: 0;
+}
+
+.triangle:nth-child(3){
+  border-bottom: 100px solid red;
+  top: 0;
+  right: 0;
+}
+
+.triangle:nth-child(4){
+  border-bottom: 100px solid red;
+  bottom: 0;
+  right: 0;
+}
+
+/*table tr td{
+  border: 2px solid black;
+  padding: 5px;
+  text-align: center;
+  height: 50px;
+  width: 100px;
+  border-color: chartreuse;
+  border-collapse: collapse;
+}
+
+table{
+  border-spacing: 15px;
+  background-color: salmon;
+  margin: auto;
+}
+
+tr{
+  background-color: #bb8ed4;
+}
+
+h1{
+  text-align: center;
+}

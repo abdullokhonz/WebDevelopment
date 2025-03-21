@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stars{
+    width: 100%;
+    height: 100%;
+    background: #000 url(../img/stars.png) repeat top center;
+    position: absolute;
+    z-index: -2;
+}
+.twinkling{
+    width: 100%;
+    height: 100%;
+    background: transparent url(../img/twinkling.png) repeat top center;
+    position: absolute;
+    z-index: -1;
+    animation: move-stars 200s linear infinite;
+}
+@keyframes move-stars{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: -10000px 5000px;
+    }
+}
+.system{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.orbita{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 100%;
+    position: absolute;
+}
+.earth{
+    height: 500px;
+    width: 500px;
+    animation: spin 8s linear infinite;
+}
+
+.earth-img{
+    position: absolute;
+    top: 50%;
+    left: -12px;
+    border-radius: 100%;
+    transform: translateY(-50%);
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

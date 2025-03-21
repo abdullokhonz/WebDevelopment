@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/stylerl.css">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="gallery/Consulto.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <title>Consulto</title>
+</head>
+<body>
+
+    <div id="preloader">
+
+        <div id="loader">
+
+            <div id="loader1"></div>
+            <div id="loader2"></div>
+            <div id="loader3"></div>
+
+        </div>
+
+    </div>
+
+    <div class="all-container">
+
+    <div class="home">
+
+        <div class="background-home">
+            <video id="background-video" autoplay loop muted>
+                <source src="gallery/Home/hero-bg-video.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay">
+
+            </div>
+        </div>
+
+        <div class="home-container">
+    
+            <div class="panel">
+    
+                <img src="gallery/Home/Consulto.webp" alt="">
+    
+                <ul class="ul">
+                    <li class="li li-home" id="li-home">
+                        <a class="a" href="#">
+                            <svg width="16px" height="16px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="" stroke-width="0.00024000000000000003" transform="matrix(1, 0, 0, 1, 0, 0)rotate(0)">
+
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                                
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#FFFFFFCCCCCC" stroke-width="0.624"/>
+                                
+                                <g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M6.46967 8.96967C6.76256 8.67678 7.23744 8.67678 7.53033 8.96967L12 13.4393L16.4697 8.96967C16.7626 8.67678 17.2374 8.67678 17.5303 8.96967C17.8232 9.26256 17.8232 9.73744 17.5303 10.0303L12.5303 15.0303C12.3897 15.171 12.1989 15.25 12 15.25C11.8011 15.25 11.6103 15.171 11.4697 15.0303L6.46967 10.0303C6.17678 9.73744 6.17678 9.26256 6.46967 8.96967Z" fill="#FFFFFF"/> </g>
+                        
+                            </svg>
+                            Домой
+                        </a>
+                        <ul class="themes-version" id="themes-version">
+                            <div class="background-color" style="background-color: #FFFFFF; box-shadow: 0 0 30px 0 #121212;">
+                                <div class="padding" style="padding: 16px 0;">
+                                    <li id="themes-version-light"><a href="indexrl.html">☀️ Светлая Версия</a></li>
+                                    <li id="themes-version-dark"><a href="indexrd.html">🌑 Тёмная Версия</a></li>
+                                    <li><a id="themes-version-russian" href="indexrl.html">
+                                            <svg width="20px" height="20px" viewBox="0 -4 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="0.25" y="0.25" width="27.5" height="19.5" rx="1.75" fill="white" stroke="#F5F5F5" stroke-width="0.5"/>
+                                                <g mask="url(#mask0_503_2726)">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 13.3333H28V6.66667H0V13.3333Z" fill="#0C47B7"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 20H28V13.3333H0V20Z" fill="#E53B35"/>
+                                                </g>
+                                            </svg>
+                                            Русская Версия
+                                        </a>
+                                    </li>
+                                    <li><a id="themes-version-english" href="indexel.html">
+                                            <svg width="20px" height="20px" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--twemoji" preserveAspectRatio="xMidYMid meet">
+                                                <path fill="#00247D" d="M0 9.059V13h5.628zM4.664 31H13v-5.837zM23 25.164V31h8.335zM0 23v3.941L5.63 23zM31.337 5H23v5.837zM36 26.942V23h-5.631zM36 13V9.059L30.371 13zM13 5H4.664L13 10.837z"></path>
+                                                <path fill="#CF1B2B" d="M25.14 23l9.712 6.801a3.977 3.977 0 0 0 .99-1.749L28.627 23H25.14zM13 23h-2.141l-9.711 6.8c.521.53 1.189.909 1.938 1.085L13 23.943V23zm10-10h2.141l9.711-6.8a3.988 3.988 0 0 0-1.937-1.085L23 12.057V13zm-12.141 0L1.148 6.2a3.994 3.994 0 0 0-.991 1.749L7.372 13h3.487z"></path>
+                                                <path fill="#EEE" d="M36 21H21v10h2v-5.836L31.335 31H32a3.99 3.99 0 0 0 2.852-1.199L25.14 23h3.487l7.215 5.052c.093-.337.158-.686.158-1.052v-.058L30.369 23H36v-2zM0 21v2h5.63L0 26.941V27c0 1.091.439 2.078 1.148 2.8l9.711-6.8H13v.943l-9.914 6.941c.294.07.598.116.914.116h.664L13 25.163V31h2V21H0zM36 9a3.983 3.983 0 0 0-1.148-2.8L25.141 13H23v-.943l9.915-6.942A4.001 4.001 0 0 0 32 5h-.663L23 10.837V5h-2v10h15v-2h-5.629L36 9.059V9zM13 5v5.837L4.664 5H4a3.985 3.985 0 0 0-2.852 1.2l9.711 6.8H7.372L.157 7.949A3.968 3.968 0 0 0 0 9v.059L5.628 13H0v2h15V5h-2z"></path>
+                                                <path fill="#CF1B2B" d="M21 15V5h-6v10H0v6h15v10h6V21h15v-6z"></path>
+                                            </svg>
+                                            Английская Версия
+                                        </a>
+                                    </li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="li"><a class="a" href="#" data-link="services">Услуги</a></li>
+                    <li class="li"><a class="a" href="#" data-link="portfolio">Портфолио</a></li>
+                    <li class="li"><a class="a" href="#" data-link="testmonials">Рекомендации</a></li>
+                    <li class="li"><a class="a" href="#" data-link="frequently" title="Часто задаваемые вопросы">Чзв</a></li>
+                </ul>
+    
+                <div class="phone">
+                    <a href="#">
+                        <div class="phone-icon"><img src="gallery/Home/phone_icon.png" alt=""></div>
+                            <div class="phone-text">Позвоните Нам<br><span>750-350-12345</span></div>
+                    </a>
+                </div>
+    
+            </div>
+
+            <div class="banner">
+
+                <div class="banner-text">
+
+                    <h1><div class="circle"></div>Обратитесь В То Место, Которому <br> Вы <span>Доверяете</span></h1>
+
+                    <p>Профессиональные консультации являются ключевым элементом успешной<br>
+                        личной и профессиональной жизни. Наша компания предлагает широкий спектр<br>
+                        консалтинговых услуг, чтобы помочь нашим клиентам достичь своих целей,<br>
+                        развиваться и решать проблемы, с которыми они сталкиваются.
+                    </p>
+
+                    <a href="#">Начните прямо сейчас <span>→</span></a>
+
+                </div>
+
+                <div class="registration">
+    
+                    <h2>Запишитесь На<span> БЕСПЛАТНУЮ </span>Консультацию</h2>
+                    <hr>
+                
+    
+                    <label for="Name">Полное Имя <br>
+                        <input type="text" name="" id="input">
+                    </label>
+    
+                    <label for="Number"><br> Номер Телефона <br>
+                        <input type="text" name="" id="input2">
+                    </label>
+    
+                    <label for="Adress"><br> Адрес Электронной Почты<span>*</span> <br>
+                        <input type="email" name="" id="input3">
+                    </label>
+
+                    <br>
+
+                    <div class="registration-button" id="registration-button"><a href="#">Закажите Бесплатную Консультацию</a></div>
+
+                </div>
+    
+            </div>
+
+            <div class="social-media">
+                <a href="#"><img src="gallery/Home/facebook_icon.png" alt=""></a>
+                <a href="#"><img src="gallery/Home/youtube_icon.png" alt=""></a>
+                <a href="#"><img src="gallery/Home/instagram_icon.png" alt=""></a>
+                <a href="#"><img src="gallery/Home/twitter_icon.png" alt=""></a>
+            </div>
+    
+        </div>
+
+    </div>
+
+
+
+    <div class="services" id="services">
+
+        <div class="services-container">
+
+            <div class="services-text">
+
+                <h2><div class="circle"></div>Услуги, Которые Мы Предоставляем</h2>
+
+                <p>
+                    Наши специалисты имеют большой опыт работы в различных областях, включая
+                    бизнес-консалтинг, личностное развитие, психологию,
+                    финансы, юриспруденцию и многое другое.
+                </p>
+
+                <span>● ● ●</span>
+                
+            </div>
+
+            <div class="services-card">
+
+                <div class="services-card-top">
+
+                    <!--1 Card-->
+                    <div class="services-card-1">
+
+                        <img src="gallery/Services/pencil X ruler.png" alt="">
+
+                        <img class="img" src="gallery/Services/1.png" alt="">
+    
+                        <h2>Креативные Решения</h2>
+    
+                        <p>
+                            Мы уделяем внимание потребностям каждого клиента и разрабатываем
+                            индивидуальные консультационные программы, направленные на
+                            достижение конкретных результатов.
+                        </p>
+    
+                        <a href="#">Подробнее <span>→</span></a>
+
+                    </div>
+    
+                    <!--2 Card-->
+                    <div class="services-cards">
+
+                        <img src="gallery/Services/compass.png" alt="">
+
+                        <img class="img" src="gallery/Services/2.png" alt="">
+    
+                        <h2>Солидные Планы</h2>
+    
+                        <p>
+                            Наши консультации проводятся как индивидуально, так и в групповой
+                            форме для удовлетворения уникальных потребностей наших клиентов.
+                        </p>
+    
+                        <a href="#">Подробнее <span>→</span></a>
+
+                    </div>
+    
+                    <!--3 Card-->
+                    <div class="services-cards">
+
+                        <img src="gallery/Services/layers.png" alt="">
+
+                        <img class="img" src="gallery/Services/3.png" alt="">
+    
+                        <h2>Поддерживающие Слои</h2>
+    
+                        <p>
+                            Мы предлагаем как очные встречи, так и онлайн-консультации,
+                            чтобы быть максимально удобными для всех наших клиентов.
+                        </p>
+    
+                        <a href="#">Подробнее <span>→</span></a>
+
+                    </div>
+
+                </div>
+
+                <div class="services-card-bottom">
+
+                    <!--4 Card-->
+                    <div class="services-cards">
+
+                        <img src="gallery/Services/rocket.png" alt="">
+
+                        <img class="img" src="gallery/Services/4.png" alt="">
+    
+                        <h2>Гламурный Успех</h2>
+    
+                        <p>
+                            Наша цель - помочь людям создать более счастливую, успешную и
+                            приносящую удовлетворение жизнь.
+                        </p>
+    
+                        <a href="#">Подробнее <span>→</span></a>
+
+                    </div>
+    
+                    <!--5 Card--> 
+                    <div class="services-cards">
+
+                        <img src="gallery/Services/gavel.png" alt="">
+
+                        <img class="img" src="gallery/Services/5.png" alt="">
+    
+                        <h2>Юридические Консультации</h2>
+    
+                        <p>
+                            Мы стремимся быть надежными и поддерживающими партнерами для всех,
+                            кто ищет помощи и руководства в различных аспектах своей жизни.
+                        </p>
+    
+                        <a href="#">Подробнее <span>→</span></a>
+
+                    </div>
+    
+                    <!--6 Card-->
+                    <div class="services-cards">
+
+                        <img src="gallery/Services/money.png" alt="">
+
+                        <img class="img" src="gallery/Services/6.png" alt="">
+    
+                        <h2>Увеличение Прибыли</h2>
+    
+                        <p>
+                            Свяжитесь с нами сегодня, чтобы узнать больше о том, как наши
+                            консультации могут помочь вам достичь ваших целей и преодолеть
+                            любые препятствия на вашем пути к успеху.
+                        </p>
+    
+                        <a href="#">Подробнее <span>→</span></a>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="portfolio" id="portfolio">
+
+        <div class="portfolio-container">
+
+            <div class="portfolio-text">
+
+                <h2><div class="circle"></div>Портфолио Тематических Исследований</h2>
+
+                <p>
+                    Мы работаем с каждым клиентом индивидуально, чтобы предложить наиболее<br>
+                    эффективные и персонализированные решения.
+                </p>
+
+                <span>● ● ●</span>
+                
+            </div>
+
+            <div class="wrapper">
+
+                <i id="left" class="fa-solid fa-angle-left"><p>←</p></i>
+
+                <div class="carousel">
+                    <img src="gallery/Portfolio/1.jpg" alt="img" draggable="false">
+                    <img src="gallery/Portfolio/2.jpg" alt="img" draggable="false">
+                    <img src="gallery/Portfolio/3.jpg" alt="img" draggable="false">
+                    <img src="gallery/Portfolio/4.jpg" alt="img" draggable="false">
+                    <img src="gallery/Portfolio/5.jpg" alt="img" draggable="false">
+                    <img src="gallery/Portfolio/6.jpg" alt="img" draggable="false">
+                </div>
+
+                <i id="right" class="fa-solid fa-angle-right"><p>→</p></i>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="marquee">
+        <ul class="marquee-content">
+            <li><img src="gallery/Slider_IMG/a.png" alt="Slider_IMG"></li>
+            <li><img src="gallery/Slider_IMG/alisa.png" alt="Slider_IMG"></li>
+            <li><img src="gallery/Slider_IMG/backyard.png" alt="Slider_IMG"></li>
+            <li><img src="gallery/Slider_IMG/bakery.png" alt="Slider_IMG"></li>
+            <li><img src="gallery/Slider_IMG/shutter_speed.png" alt="Slider_IMG"></li>
+            <li><img src="gallery/Slider_IMG/smile.png" alt="Slider_IMG"></li>
+            <li><img src="gallery/Slider_IMG/wedding.png" alt="Slider_IMG"></li>
+        </ul>
+    </div>
+
+    <div class="testmonials" id="testmonials">
+
+        <div class="testmonials-container">
+
+            <div class="testmonials-position">
+
+                <div class="testmonials-title">
+                
+                    <div class="testmonials-p">ТЕСТОВЫЕ ДАННЫЕ <span>●</span></div>
+                    <h1><div class="circle"></div>Отзывы Наших Клиентов О Своем Опыте Работы С Нами</h1>
+                    <a href="#">Смотрите все отзывы</a>
+    
+                </div>
+                                                        <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="testmonials-manager-card">
+                                <div class="manager-bio">
+                                    <img src="gallery/Testmonial_Manager_Image/1.jpg" alt="Manager">
+                                    <p class="manager-name">Алексей Иванов<br><span>Предприниматель</span></p>
+                                </div>
+                                <p class="manager-text">⭐⭐⭐⭐<br>
+                                    Я не могу не отметить профессионализм и компетентность команды
+                                    Consulto. Мы наблюдаем устойчивый рост трафика после выполнения
+                                    их рекомендаций. Большое вам спасибо за ваше ценное
+                                    сотрудничество!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testmonials-manager-card">
+                            <div class="manager-bio">
+                                <img src="gallery/Testmonial_Manager_Image/2.jpg" alt="Manager">
+                                <p class="manager-name">Иван Петров<br><span>Директор по маркетингу</span></p>
+                            </div>
+                            <p class="manager-text">⭐⭐⭐<br>
+                                Консалтинговая компания "Consulto" превзошла все мои ожидания.
+                                Я очень доволен результатами и настоятельно рекомендую Consulto
+                                всем, кто хочет улучшить свой онлайн-бизнес.
+                            </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testmonials-manager-card">
+                            <div class="manager-bio">
+                                <img src="gallery/Testmonial_Manager_Image/3.jpg" alt="Manager">
+                                <p class="manager-name">Елена Сидорова<br><span>Начальник отдела маркетинга</span></p>
+                            </div>
+                            <p class="manager-text">⭐⭐⭐⭐⭐<br>
+                                Сотрудничество с консалтинговой компанией "Consulto" стало для нас
+                                настоящим открытием. Они предоставили ценные рекомендации по
+                                улучшению SEO. Благодаря Consulto мы теперь лучше понимаем наших
+                                клиентов.
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="talanted" id="talanted">
+
+                <h1><div class="circle"></div>Талантливые Члены Команды</h1>
+                <p>
+                    Наша команда консультантов обладает выдающимися знаниями и опытом в различных
+                    областях бизнеса. Мы гордимся тем, что каждый член нашей команды является
+                    талантливым экспертом, способным решать самые сложные задачи и предлагать
+                    инновационные решения. Наши консультанты обладают уникальными навыками и
+                    страстью к своей работе, обеспечивая нашим клиентам высочайший уровень
+                    профессионализма и результатов.
+                    <br><span>● ● ●</span>
+                </p>
+    
+                <div class="talanted-team">
+    
+                    <div class="talanted-1 talanteds">
+                        
+                        <div class="talanted-img" id="talanted-img"><img src="gallery/Talanted_IMG/1.jpg" alt="Talanted"></div>
+                        <div class="talanted-social-media" id="talanted-social-media">
+                            <img src="gallery/Home/facebook_icon.png" alt="facebook">
+                            <img src="gallery/Home/youtube_icon.png" alt="youtube">
+                            <img src="gallery/Home/instagram_icon.png" alt="instagram">
+                            <img src="gallery/Home/twitter_icon.png" alt="twitter">
+                        </div>
+                        <div class="talanted-name">Сергей Николаев<br><span>Основатель</span></div>
+    
+                    </div>
+    
+                    <div class="talanted-2 talanteds">
+                        
+                        <div class="talanted-img" id="talanted-img2"><img src="gallery/Talanted_IMG/2.jpg" alt="Talanted"></div>
+                        <div class="talanted-social-media" id="talanted-social-media2">
+                            <img src="gallery/Home/facebook_icon.png" alt="facebook">
+                            <img src="gallery/Home/youtube_icon.png" alt="youtube">
+                            <img src="gallery/Home/instagram_icon.png" alt="instagram">
+                            <img src="gallery/Home/twitter_icon.png" alt="twitter">
+                        </div>
+                        <div class="talanted-name">Анна Козлова<br><span>Исполнительный Директор</span></div>
+    
+                    </div>
+    
+                    <div class="talanted-3 talanteds">
+                        
+                        <div class="talanted-img" id="talanted-img3"><img src="gallery/Talanted_IMG/3.jpg" alt="Talanted"></div>
+                        <div class="talanted-social-media" id="talanted-social-media3">
+                            <img src="gallery/Home/facebook_icon.png" alt="facebook">
+                            <img src="gallery/Home/youtube_icon.png" alt="youtube">
+                            <img src="gallery/Home/instagram_icon.png" alt="instagram">
+                            <img src="gallery/Home/twitter_icon.png" alt="twitter">
+                        </div>
+                        <div class="talanted-name">Дмитрий Соколов<br><span>Менеджер</span></div>
+    
+                    </div>
+    
+                </div>
+    
+                <a href="#">Видеть всех членов команды</a>
+    
+            </div>
+    
+        </div>
+
+    </div>
+
+    <div class="frequently" id="frequently">
+
+        <div class="frequently-background">
+
+            <div class="frequently-container">
+    
+                <h1><div class="circle"></div>Часто Задаваемые Вопросы</h1>
+                <p>
+                    В этом разделе вы найдете ответы на наиболее распространенные запросы наших
+                    клиентов. Мы собрали здесь информацию о наших услугах,<br>процессе
+                    консультирования и других вопросах, которые могут возникнуть у клиентов.
+                    Если вы хотите узнать больше о нашей работе или<br>не нашли ответа
+                    на свой вопрос, не стесняйтесь обращаться к нашей команде консультантов.
+                    Наша цель - предоставить клиентам<br>всю необходимую информацию
+                    и сделать их работу с нами максимально удобной и продуктивной.
+                    <br><span>● ● ●</span>
+                </p>
+    
+                <div class="why">
+    
+                    <div class="why-content">
+    
+                        <div class="why-question" id="why-question">
+                            <h2>Прост Ли Ваш Сервис В Использовании?<span id="pm">+</span></h2>
+                        </div>
+    
+                        <div class="why-text" id="why-text">
+                            <p>
+                                Да, наш сервис очень прост в использовании. Мы разработали его
+                                с учетом потребностей пользователя, чтобы сделать процесс
+                                максимально интуитивным. Наш интерфейс дружелюбен и прост в
+                                навигации, что делает использование нашего сервиса удобным для
+                                всех пользователей, независимо от их уровня опыта или технических
+                                навыков. Мы также предоставляем подробную документацию и
+                                онлайн-поддержку, чтобы обеспечить нашим клиентам максимальное
+                                удобство при использовании нашего сервиса.
+                            </p>
+                        </div>
+    
+                    </div>
+    
+                    <div class="why-content">
+    
+                        <div class="why-question" id="why-question2">
+                            <h2>Сколько Я Заплачу?<span id="pm2">+</span></h2>
+                        </div>
+    
+                        <div class="why-text" id="why-text2">
+                            <p>
+                                Стоимость наших услуг зависит от конкретных потребностей и объема
+                                требуемой работы. Мы предлагаем гибкую ценовую политику, которая
+                                обеспечивает прозрачность и справедливость для наших клиентов.
+                                Чтобы уточнить точные цены, мы рекомендуем обратиться к нам за
+                                индивидуальной консультацией, чтобы мы могли оценить ваши
+                                потребности и предложить наиболее подходящее решение,
+                                соответствующее вашему бюджету. Мы также можем обсудить различные
+                                варианты оплаты и убедиться, что они соответствуют вашим
+                                возможностям.
+                            </p>
+                        </div>
+    
+                    </div>
+    
+                    <div class="why-content">
+    
+                        <div class="why-question" id="why-question3">
+                            <h2>Работают Ли Эти Сервисы В Моей Стране?<span id="pm3">+</span></h2>
+                        </div>
+    
+                        <div class="why-text" id="why-text3">
+                            <p>
+                                Да, наши услуги доступны во многих странах мира. Мы стремимся
+                                обеспечить глобальный охват, чтобы клиенты со всего мира могли
+                                пользоваться нашими услугами. У нас также есть разные методы
+                                коммуникации и мы предоставляем поддержку на разных языках,
+                                чтобы удовлетворить потребности наших клиентов в разных регионах.
+                                Пожалуйста, свяжитесь с нами, чтобы уточнить, доступны ли наши
+                                услуги и поддержка в вашей стране, и мы будем рады предоставить
+                                вам подробную информацию по этому поводу.
+                            </p>
+                        </div>
+    
+                    </div>
+    
+                    <div class="why-content">
+    
+                        <div class="why-question" id="why-question4">
+                            <h2>Есть Ли Другие Сборы?<span id="pm4">+</span></h2>
+                        </div>
+    
+                        <div class="why-text" id="why-text4">
+                            <p>
+                                Наши услуги обычно имеют прозрачную ценовую модель, и мы стремимся
+                                предоставить всю необходимую информацию о возможных дополнительных
+                                сборах заранее. Возможно, будут дополнительные расходы, такие как
+                                налоги или платежи за конкретные дополнительные услуги, и мы
+                                обязательно сообщим вам о них перед началом работы. Мы ценим
+                                прозрачность в отношениях с нашими клиентами, поэтому если у вас
+                                есть вопросы о возможных дополнительных сборах, пожалуйста,
+                                обратитесь к нашему представителю, чтобы мы могли обсудить это
+                                более детально.
+                            </p>
+                        </div>
+    
+                    </div>
+    
+                    <div class="why-content">
+    
+                        <div class="why-question" id="why-question5">
+                            <h2>Буду Ли Я Получать Обновления В Будущем?<span id="pm5">+</span></h2>
+                        </div>
+    
+                        <div class="why-text" id="why-text5">
+                            <p>
+                                Да, мы всегда стремимся предоставлять нашим клиентам постоянные обновления и улучшения
+                                наших услуг. Мы ценим отзывы наших клиентов и активно работаем над
+                                улучшением наших продуктов и услуг. Кроме того, мы регулярно информируем клиентов об
+                                обновлениях, новых функциях и изменениях через наши информационные каналы, такие как электронная почта, блоги
+                                или информационные бюллетени. Мы стремимся поддерживать долгосрочные отношения с нашими клиентами,
+                                предоставляя им актуальную информацию и обновления, которые могут быть полезны для их
+                                деятельности.
+                            </p>
+                        </div>
+    
+                    </div>
+    
+                    <div class="why-content">
+    
+                        <div class="why-question" id="why-question6">
+                            <h2>Как Я Могу Подписать Контракт?<span id="pm6">+</span></h2>
+                        </div>
+    
+                        <div class="why-text" id="why-text6">
+                            <p>
+                                Есть несколько способов зарегистрировать контакт с нашей компанией. Во-первых, вы можете заполнить форму обратной связи на нашем сайте, указав необходимую информацию, и наш менеджер свяжется с вами как можно скорее.
+                                Если у вас есть какие-либо предпочтения в общении, вы можете связаться с нами по электронной почте или по номеру телефона, указанному на нашем веб-сайте, и наша служба поддержки поможет вам зарегистрировать контакт для дальнейшего взаимодействия.
+                                Мы также можем предложить вам зарегистрироваться через наши официальные аккаунты в социальных сетях, если вам так удобнее.
+                                Мы готовы предоставить вам различные варианты регистрации контактов в соответствии с вашими потребностями.
+                            </p>
+                        </div>
+    
+                    </div>
+    
+                </div>
+
+                <form action="">
+
+                    <div class="form">
+
+                        <div class="form-title">
+                            <div class="form-p">У ВАС ЕЩЕ ЕСТЬ ВОПРОСЫ? <span>●</span></div>
+                            <h1><div class="circle"></div>Мы Готовы Предоставить Больше&nbsp;Ответов</h1>
+                        </div>
+
+                        <div class="form-input">
+                            <div class="form-bio">
+                                <label for="">Имя <span>*</span><br>
+                                    <input type="text">
+                                </label>
+                                <label for="">Электронная Почта <span>*</span><br>
+                                    <input type="text">
+                                </label>
+                            </div>
+                            <div class="form-message">
+                                <label for="">Предмет <span>*</span><br>
+                                    <input type="text">
+                                </label>
+                                <label for="">Ваше Сообщение <span>*</span><br>
+                                    <textarea name="mesage"></textarea>
+                                </label>
+                                <a href="#">Отправьте свое сообщение</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </form>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer">
+
+                <div class="about">
+                    <h2>О Consulto</h2>
+                    <p>
+                        Наша консалтинговая компания - <br>это команда
+                        опытных профессионалов, <br>которые готовы
+                        помочь вам достичь ваших <br>бизнес-целей.
+                    </p>
+                </div>
+
+                <div class="about-sm">
+                    <a href="#"><img class="about-sm-img" src="gallery/Home/facebook_icon.png" alt="facebook"></a>
+                    <a href="#"><img class="about-sm-img" src="gallery/Home/youtube_icon.png" alt="youtube"></a>
+                    <a href="#"><img class="about-sm-img" src="gallery/Home/instagram_icon.png" alt="instagram"></a>
+                    <a href="#"><img class="about-sm-img" src="gallery/Home/twitter_icon.png" alt="twitter"></a>
+                </div>
+
+                <div class="useful">
+                    <h2>Полезные ссылки</h2>
+                    <a href="#">Google</a>
+                    <a href="#">Dribbble</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Wikipiddia</a>
+                </div>
+    
+                <div class="resources">
+                    <h2>Ресурсы</h2>
+                    <a href="#">Поддержка</a>
+                    <a href="#">Приборная панель</a>
+                    <a href="#">Водители</a>
+                    <a href="#">Проекты</a>
+                </div>
+    
+                <div class="contact-info">
+                    <h2>Контактная информация</h2>
+                    <a href="mailto:example@support.com">example@support.com</a>
+                    <a href="#">www.yoursite.com</a>
+                    <a href="#">5 xyz st., abc, alexandria, egypt.</a>
+                    <a href="tel:+20123456789">+20123456789</a>
+                </div>
+
+            </div>
+
+            <div class="by">
+
+                <div class="created"><p>© 2020 Автор: <a href="#">mhmd amin</a></p></div>
+
+                <div class="terms">
+                    <a href="#">Условия Использования</a>
+                    <span>|</span>
+                    <a href="#">Политика Конфиденциальности</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/error404rl.js"></script>
+
+    </div>
+</body>
+</html>

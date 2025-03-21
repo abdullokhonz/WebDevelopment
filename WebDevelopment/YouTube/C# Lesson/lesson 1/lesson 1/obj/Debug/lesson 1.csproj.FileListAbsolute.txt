@@ -1,0 +1,7 @@
+D:\My files\Web development\YouTube\C# Lesson\lesson 1\lesson 1\bin\Debug\lesson 1.exe.config
+D:\My files\Web development\YouTube\C# Lesson\lesson 1\lesson 1\bin\Debug\lesson 1.exe
+D:\My files\Web development\YouTube\C# Lesson\lesson 1\lesson 1\bin\Debug\lesson 1.pdb
+D:\My files\Web development\YouTube\C# Lesson\lesson 1\lesson 1\obj\Debug\lesson 1.csproj.AssemblyReference.cache
+D:\My files\Web development\YouTube\C# Lesson\lesson 1\lesson 1\obj\Debug\lesson 1.csproj.CoreCompileInputs.cache
+D:\My files\Web development\YouTube\C# Lesson\lesson 1\lesson 1\obj\Debug\lesson 1.exe
+D:\My files\Web development\YouTube\C# Lesson\lesson 1\lesson 1\obj\Debug\lesson 1.pdb

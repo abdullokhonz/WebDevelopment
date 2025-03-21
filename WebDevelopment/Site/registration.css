@@ -1,0 +1,21 @@
+*{
+    background-color: aqua;
+}
+
+.registration{
+    text-align: center;
+}
+  
+input{
+    margin: 5px;
+    width: 350px;
+    height: 30px;
+    border: #2272FF solid 3px;
+    color: #1D1D1D;
+}
+  
+input:hover{
+    color: white;
+    border: #2272FF solid 5px;
+    background-color: #1D1D1D
+}

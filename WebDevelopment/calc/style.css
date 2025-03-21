@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, aqua, #FFFFFF, #fc60ff);
+}
+
+* {
+    user-select: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    margin: 150px 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #3c3c3c;
+    padding: 20px 5px 5px;
+    border-radius: 10px;
+    gap: 5px;
+    box-shadow: 0px 0px 50px 0px #5d5d5d;
+}
+
+.input {
+    grid-column: 1 / -1;
+    height: 32px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: inherit;
+    outline: none;
+    text-align: right;
+    margin-bottom: 12px;
+}
+
+.btn {
+    color: #FFFFFF;
+    width: 80px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn:nth-child(2),
+.btn:nth-child(3),
+.btn:nth-child(4),
+.btn:nth-child(5),
+.btn:nth-child(9),
+.btn:nth-child(13),
+.btn:nth-child(17) {
+    background-color: #4a4a4a;
+    transition: all .1s linear;
+}
+
+
+.btn:nth-child(2):active,
+.btn:nth-child(3):active,
+.btn:nth-child(4):active,
+.btn:nth-child(5):active,
+.btn:nth-child(9):active,
+.btn:nth-child(13):active,
+.btn:nth-child(17):active {
+    background-color: #5d5d5d;
+}
+
+.btn:nth-child(6),
+.btn:nth-child(7),
+.btn:nth-child(8),
+.btn:nth-child(10),
+.btn:nth-child(11),
+.btn:nth-child(12),
+.btn:nth-child(14),
+.btn:nth-child(15),
+.btn:nth-child(16),
+.btn:nth-child(18),
+.btn:nth-child(19),
+.btn:nth-child(20) {
+    background-color: #5d5d5d;
+    transition: all .1s linear;
+}
+
+.btn:nth-child(6):active,
+.btn:nth-child(7):active,
+.btn:nth-child(8):active,
+.btn:nth-child(10):active,
+.btn:nth-child(11):active,
+.btn:nth-child(12):active,
+.btn:nth-child(14):active,
+.btn:nth-child(15):active,
+.btn:nth-child(16):active,
+.btn:nth-child(18):active,
+.btn:nth-child(19):active,
+.btn:nth-child(20):active {
+    background-color: #4a4a4a;
+}
+
+.btn:nth-child(21) {
+    color: #3c3c3c;
+    background-color: rgb(52, 197, 255);
+    transition: all .1s linear;
+}
+
+.btn:nth-child(20):active {
+    background-color: rgba(52, 197, 255, 0.8);
+}
+
+@media (hover: hover) {
+    .btn:nth-child(2):hover,
+    .btn:nth-child(3):hover,
+    .btn:nth-child(4):hover,
+    .btn:nth-child(5):hover,
+    .btn:nth-child(9):hover,
+    .btn:nth-child(13):hover,
+    .btn:nth-child(17):hover {
+        background-color: #5d5d5d;
+    }
+
+    .btn:nth-child(6):hover,
+    .btn:nth-child(7):hover,
+    .btn:nth-child(8):hover,
+    .btn:nth-child(10):hover,
+    .btn:nth-child(11):hover,
+    .btn:nth-child(12):hover,
+    .btn:nth-child(14):hover,
+    .btn:nth-child(15):hover,
+    .btn:nth-child(16):hover,
+    .btn:nth-child(18):hover,
+    .btn:nth-child(19):hover,
+    .btn:nth-child(20):hover {
+        background-color: #4a4a4a;
+    }
+
+    .btn:nth-child(21):hover {
+        background-color: rgba(52, 197, 255, 0.8);
+    }
+}

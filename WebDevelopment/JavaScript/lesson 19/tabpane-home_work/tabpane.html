@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tabpane.css">
+    <title>Tabpane_img</title>
+</head>
+<body>
+    
+    <div data-id="cards" class="cards">
+        
+        <div data-id="tab-panes" class="tab-panes">
+
+            <div data-tabpane="block" class="block"><img src="img/welcome.jpg" alt=""></div>
+            <div data-tabpane="first" class="block1 blockCards"><img src="img/5. Белый тигренок.jpg" alt=""></div>
+            <div data-tabpane="second" class="block2 blockCards"><img src="img/14. Листва.jpg" alt=""></div>
+            <div data-tabpane="third" class="block block1 block2 blockCards"><img src="img/18. Замок Химэдзи.jpg" alt=""></div>
+
+        </div>
+
+        <div class="clear-button"><button data-tab="clear">Clear</button></div>
+
+        <div data-id="tabs" class="tabs">
+
+            <button data-tab="first">Animals</button>
+            <button data-tab="second">Nature</button>
+            <button data-tab="third">Castle</button>
+
+        </div>
+
+    </div>
+
+    <script src="tabpane.js"></script>
+
+</body>
+</html>

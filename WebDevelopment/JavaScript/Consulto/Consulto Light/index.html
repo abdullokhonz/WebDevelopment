@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="gallery/Consulto.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <title>Consulto</title>
+</head>
+<body>
+
+    <div id="preloader">
+
+        <div id="loader">
+
+            <div id="loader1"></div>
+            <div id="loader2"></div>
+            <div id="loader3"></div>
+
+        </div>
+
+    </div>
+
+    <div class="all-container">
+
+    <div class="home">
+
+        <div class="background-home">
+            <video id="background-video" autoplay loop muted>
+                <source src="gallery/Home/hero-bg-video.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay">
+
+            </div>
+        </div>
+
+        <div class="home-container">
+    
+            <div class="panel">
+    
+                <img src="gallery/Home/Consulto.webp" alt="">
+    
+                <ul class="ul">
+                    <li class="li li-home" id="li-home">
+                        <a class="a" href="#">
+                            <svg width="16px" height="16px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="" stroke-width="0.00024000000000000003" transform="matrix(1, 0, 0, 1, 0, 0)rotate(0)">
+
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                                
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#FFFFFFCCCCCC" stroke-width="0.624"/>
+                                
+                                <g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M6.46967 8.96967C6.76256 8.67678 7.23744 8.67678 7.53033 8.96967L12 13.4393L16.4697 8.96967C16.7626 8.67678 17.2374 8.67678 17.5303 8.96967C17.8232 9.26256 17.8232 9.73744 17.5303 10.0303L12.5303 15.0303C12.3897 15.171 12.1989 15.25 12 15.25C11.8011 15.25 11.6103 15.171 11.4697 15.0303L6.46967 10.0303C6.17678 9.73744 6.17678 9.26256 6.46967 8.96967Z" fill="#FFFFFF"/> </g>
+                        
+                            </svg>
+                            Home
+                        </a>
+                        <ul class="themes-version" id="themes-version">
+                            <div class="background-color" style="background-color: #FFFFFF; box-shadow: 0 0 30px 0 #121212;">
+                                <div class="padding" style="padding: 16px 0;">
+                                    <li id="themes-version-light"><a href="index.html">☀️ Light Version</a></li>
+                                    <li id="themes-version-dark"><a href="../index.html">🌑 Dark Versoin</a></li>
+                                    <li><a id="themes-version-russian" href="../Consulto Russian/Consulto Russian Light/index.html">
+                                            <svg width="20px" height="20px" viewBox="0 -4 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="0.25" y="0.25" width="27.5" height="19.5" rx="1.75" fill="white" stroke="#F5F5F5" stroke-width="0.5"/>
+                                                <g mask="url(#mask0_503_2726)">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 13.3333H28V6.66667H0V13.3333Z" fill="#0C47B7"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 20H28V13.3333H0V20Z" fill="#E53B35"/>
+                                                </g>
+                                            </svg>
+                                            Russian Version
+                                        </a>
+                                    </li>
+                                    <li><a id="themes-version-english" href="index.html">
+                                            <svg width="20px" height="20px" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--twemoji" preserveAspectRatio="xMidYMid meet">
+                                                <path fill="#00247D" d="M0 9.059V13h5.628zM4.664 31H13v-5.837zM23 25.164V31h8.335zM0 23v3.941L5.63 23zM31.337 5H23v5.837zM36 26.942V23h-5.631zM36 13V9.059L30.371 13zM13 5H4.664L13 10.837z"></path>
+                                                <path fill="#CF1B2B" d="M25.14 23l9.712 6.801a3.977 3.977 0 0 0 .99-1.749L28.627 23H25.14zM13 23h-2.141l-9.711 6.8c.521.53 1.189.909 1.938 1.085L13 23.943V23zm10-10h2.141l9.711-6.8a3.988 3.988 0 0 0-1.937-1.085L23 12.057V13zm-12.141 0L1.148 6.2a3.994 3.994 0 0 0-.991 1.749L7.372 13h3.487z"></path>
+                                                <path fill="#EEE" d="M36 21H21v10h2v-5.836L31.335 31H32a3.99 3.99 0 0 0 2.852-1.199L25.14 23h3.487l7.215 5.052c.093-.337.158-.686.158-1.052v-.058L30.369 23H36v-2zM0 21v2h5.63L0 26.941V27c0 1.091.439 2.078 1.148 2.8l9.711-6.8H13v.943l-9.914 6.941c.294.07.598.116.914.116h.664L13 25.163V31h2V21H0zM36 9a3.983 3.983 0 0 0-1.148-2.8L25.141 13H23v-.943l9.915-6.942A4.001 4.001 0 0 0 32 5h-.663L23 10.837V5h-2v10h15v-2h-5.629L36 9.059V9zM13 5v5.837L4.664 5H4a3.985 3.985 0 0 0-2.852 1.2l9.711 6.8H7.372L.157 7.949A3.968 3.968 0 0 0 0 9v.059L5.628 13H0v2h15V5h-2z"></path>
+                                                <path fill="#CF1B2B" d="M21 15V5h-6v10H0v6h15v10h6V21h15v-6z"></path>
+                                            </svg>
+                                            English Version
+                                        </a>
+                                    </li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="li"><a class="a" href="#" data-link="services">Services</a></li>
+                    <li class="li"><a class="a" href="#" data-link="portfolio">Portfolio</a></li>
+                    <li class="li"><a class="a" href="#" data-link="testmonials">Testimonials</a></li>
+                    <li class="li"><a class="a" href="#" data-link="frequently">Faq</a></li>
+                </ul>
+    
+                <div class="phone">
+                    <a href="#">
+                        <div class="phone-icon"><img src="gallery/Home/phone_icon.png" alt=""></div>
+                            <div class="phone-text">Call Us<br><span>750-350-12345</span></div>
+                    </a>
+                </div>
+    
+            </div>
+
+            <div class="banner">
+
+                <div class="banner-text">
+
+                    <h1><div class="circle"></div>Consulto The Place <br> You <span>Trust</span></h1>
+
+                    <p>Professional consultations are a key element of a successful personal<br>
+                        and professional life. Our company offers a wide range of consulting<br>
+                        services to help our clients achieve their goals, develop and solve<br>
+                        the problems they face.
+                    </p>
+
+                    <a href="#">Start now <span>→</span></a>
+
+                </div>
+
+                <form>
+                    <div class="registration">
+                        <h2>Book Your <span>FREE</span> Consultation</h2>
+                        <hr id="hr">
+                        <label><span class="p">Full Name</span> <br>
+                            <input class="registration-input" type="text" id="name" required>
+                        </label>
+                        <label><br> <span class="p">Phone Number</span> <br>
+                            <input class="registration-input" type="tel" id="number" required>
+                        </label>
+                        <label><br> <span class="p">Email Adress<span>*</span></span> <br>
+                            <input class="registration-input" type="email" id="email" required>
+                        </label>
+                        <br>
+                        <button class="registration-button" id="registration-button">
+                            Book Free Consultation</button>
+                    </div>
+                </form>
+    
+            </div>
+
+            <div class="social-media">
+                <a href="#"><img src="gallery/Home/facebook_icon.png" alt=""></a>
+                <a href="#"><img src="gallery/Home/youtube_icon.png" alt=""></a>
+                <a href="#"><img src="gallery/Home/instagram_icon.png" alt=""></a>
+                <a href="#"><img src="gallery/Home/twitter_icon.png" alt=""></a>
+            </div>
+    
+        </div>
+
+    </div>
+
+
+
+    <div class="services" id="services">
+
+        <div class="services-container">
+
+            <div class="services-text">
+
+                <h2><div class="circle"></div>Services We Provide</h2>
+
+                <p>Our experts have extensive experience in various fields, including business
+                    consulting, personal development, psychology,<br>finance, law and more.
+                </p>
+
+                <span>● ● ●</span>
+                
+            </div>
+
+            <div class="services-card">
+
+                <div class="services-card-top">
+
+                    <!--1 Card-->
+                    <div class="services-card-1">
+
+                        <img src="gallery/Services/pencil X ruler.png" alt="">
+
+                        <img class="img" src="gallery/Services/1.png" alt="">
+    
+                        <h2>Creative Solutions</h2>
+    
+                        <p>We pay attention to the needs of each client and develop personalized
+                            consulting programs aimed at achieving specific results.
+                        </p>
+    
+                        <a href="#">Read More <span>→</span></a>
+
+                    </div>
+    
+                    <!--2 Card-->
+                    <div class="services-cards">
+
+                        <img src="gallery/Services/compass.png" alt="">
+
+                        <img class="img" src="gallery/Services/2.png" alt="">
+    
+                        <h2>Solid Plans</h2>
+    
+                        <p>Our consultations are conducted both individually and in a group form
+                            to meet the unique needs of our clients.
+                        </p>
+    
+                        <a href="#">Read More <span>→</span></a>
+
+                    </div>
+    
+                    <!--3 Card-->
+                    <div class="services-cards">
+
+                        <img src="gallery/Services/layers.png" alt="">
+
+                        <img class="img" src="gallery/Services/3.png" alt="">
+    
+                        <h2>Support Layers</h2>
+    
+                        <p>We offer both face-to-face meetings and online consultations to be
+                            as convenient as possible forall our clients.
+                        </p>
+    
+                        <a href="#">Read More <span>→</span></a>
+
+                    </div>
+
+                </div>
+
+                <div class="services-card-bottom">
+
+                    <!--4 Card-->
+                    <div class="services-cards">
+
+                        <img src="gallery/Services/rocket.png" alt="">
+
+                        <img class="img" src="gallery/Services/4.png" alt="">
+    
+                        <h2>Glamour Success</h2>
+    
+                        <p>Our goal is to help people create a happier, more successful and
+                            satisfying life.
+                        </p>
+    
+                        <a href="#">Read More <span>→</span></a>
+
+                    </div>
+    
+                    <!--5 Card--> 
+                    <div class="services-cards">
+
+                        <img src="gallery/Services/gavel.png" alt="">
+
+                        <img class="img" src="gallery/Services/5.png" alt="">
+    
+                        <h2>Legal Advices</h2>
+    
+                        <p>We strive to be reliable and supportive partners for everyone who is
+                            looking for help and guidance in various aspects of their lives.
+                        </p>
+    
+                        <a href="#">Read More <span>→</span></a>
+
+                    </div>
+    
+                    <!--6 Card-->
+                    <div class="services-cards">
+
+                        <img src="gallery/Services/money.png" alt="">
+
+                        <img class="img" src="gallery/Services/6.png" alt="">
+    
+                        <h2>Heigh Profits</h2>
+    
+                        <p>Contact us today to learn more about how our consultations can help
+                            you achieve your goals and overcome any obstacles on your path to
+                            success.
+                        </p>
+    
+                        <a href="#">Read More <span>→</span></a>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="portfolio" id="portfolio">
+
+        <div class="portfolio-container">
+
+            <div class="portfolio-text">
+
+                <h2><div class="circle"></div>Portfolio Of Case Studies</h2>
+
+                <p>We work with each client individually to offer the most effective and<br>
+                    personalized solutions.
+                </p>
+
+                <span>● ● ●</span>
+                
+            </div>
+
+            <div class="wrapper">
+
+                <i id="left" class="fa-solid fa-angle-left"><p>←</p></i>
+
+                <div class="carousel">
+                    <img src="gallery/Portfolio/1.jpg" alt="img" draggable="false" id="card1SmallImage">
+                    <img src="gallery/Portfolio/2.jpg" alt="img" draggable="false" id="card2SmallImage">
+                    <img src="gallery/Portfolio/3.jpg" alt="img" draggable="false" id="card3SmallImage">
+                    <img src="gallery/Portfolio/4.jpg" alt="img" draggable="false" id="card4SmallImage">
+                    <img src="gallery/Portfolio/5.jpg" alt="img" draggable="false" id="card5SmallImage">
+                    <img src="gallery/Portfolio/6.jpg" alt="img" draggable="false" id="card6SmallImage">
+                </div>
+
+                <i id="right" class="fa-solid fa-angle-right"><p>→</p></i>
+
+            </div>
+
+            <div id="card1MyModal">
+                <span id="card1CloseModal">&times;</span>
+                <img src="gallery/Portfolio/1.jpg" alt="img" id="card1LargeImage">
+            </div>
+            <div id="card2MyModal">
+                <span id="card2CloseModal">&times;</span>
+                <img src="gallery/Portfolio/2.jpg" alt="img" id="card2LargeImage">
+            </div>
+            <div id="card3MyModal">
+                <span id="card3CloseModal">&times;</span>
+                <img src="gallery/Portfolio/3.jpg" alt="img" id="card3LargeImage">
+            </div>
+            <div id="card4MyModal">
+                <span id="card4CloseModal">&times;</span>
+                <img src="gallery/Portfolio/4.jpg" alt="img" id="card4LargeImage">
+            </div>
+            <div id="card5MyModal">
+                <span id="card5CloseModal">&times;</span>
+                <img src="gallery/Portfolio/5.jpg" alt="img" id="card5LargeImage">
+            </div>
+            <div id="card6MyModal">
+                <span id="card6CloseModal">&times;</span>
+                <img src="gallery/Portfolio/6.jpg" alt="img" id="card6LargeImage">
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="marquee">
+        <marquee behavior="smooth" scrollamount="15">
+            <img src="gallery/Slider_IMG/a.png" alt="Slider_IMG">
+            <img src="gallery/Slider_IMG/alisa.png" alt="Slider_IMG">
+            <img src="gallery/Slider_IMG/backyard.png" alt="Slider_IMG">
+            <img src="gallery/Slider_IMG/bakery.png" alt="Slider_IMG">
+            <img src="gallery/Slider_IMG/shutter_speed.png" alt="Slider_IMG">
+            <img src="gallery/Slider_IMG/smile.png" alt="Slider_IMG">
+            <img src="gallery/Slider_IMG/wedding.png" alt="Slider_IMG">
+        </marquee>
+    </div>
+
+    <div class="testmonials" id="testmonials">
+
+        <div class="testmonials-container">
+
+            <div class="testmonials-position">
+
+                <div class="testmonials-title">
+                
+                    <div class="testmonials-p">TESTMONIALS <span>●</span></div>
+                    <h1><div class="circle"></div>Our Clients Feedback About Their Experience With Us</h1>
+                    <a href="#">See All Testimonials</a>
+    
+                </div>
+                                                        <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="testmonials-manager-card">
+                                <div class="manager-bio">
+                                    <img src="gallery/Testmonial_Manager_Image/1.jpg" alt="Manager">
+                                    <p class="manager-name">Alexey Ivanov<br><span>Entrepreneur</span></p>
+                                </div>
+                                <p class="manager-text">⭐⭐⭐⭐<br>
+                                    I cannot but mention the professionalism and competence of the Result+ team.
+                                    We see a steady increase in traffic after the implementation of their recommendations.
+                                    Thank you so much for your valuable cooperation!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testmonials-manager-card">
+                            <div class="manager-bio">
+                                <img src="gallery/Testmonial_Manager_Image/2.jpg" alt="Manager">
+                                <p class="manager-name">Ivan Petrov<br><span>Marketing Director</span></p>
+                            </div>
+                            <p class="manager-text">⭐⭐⭐<br>
+                                The consulting company "Consulto" exceeded all my expectations.
+                                I am very pleased with the results and highly recommend Consulto
+                                to anyone who wants to improve their online business.
+                            </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testmonials-manager-card">
+                            <div class="manager-bio">
+                                <img src="gallery/Testmonial_Manager_Image/3.jpg" alt="Manager">
+                                <p class="manager-name">Elena Sidorova<br><span>Head of Marketing Department</span></p>
+                            </div>
+                            <p class="manager-text">⭐⭐⭐⭐⭐<br>
+                                Cooperation with the consulting company "Result +" was a real revelation for us.
+                                They provided valuable recommendations for improving SEO. Thanks to Consulto,
+                                we now understand our customers better.
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="talanted" id="talanted">
+
+                <h1><div class="circle"></div>Talanted Team Members</h1>
+                <p>
+                    Our team of consultants has outstanding knowledge and experience in various business areas.
+                    We are proud that each member of our team is a talented expert capable of solving the most
+                    difficult tasks and offering innovative solutions. Our consultants have unique skills and
+                    passion for their work, providing our clients with the highest level of professionalism and results.
+                    <br><span>● ● ●</span>
+                </p>
+    
+                <div class="talanted-team">
+    
+                    <div class="talanted-1 talanteds">
+                        
+                        <div class="talanted-img" id="talanted-img"><img src="gallery/Talanted_IMG/1.jpg" alt="Talanted"></div>
+                        <div class="talanted-social-media" id="talanted-social-media">
+                            <img src="gallery/Home/facebook_icon.png" alt="facebook">
+                            <img src="gallery/Home/youtube_icon.png" alt="youtube">
+                            <img src="gallery/Home/instagram_icon.png" alt="instagram">
+                            <img src="gallery/Home/twitter_icon.png" alt="twitter">
+                        </div>
+                        <div class="talanted-name">Sergey Nikolaev<br><span>Founder</span></div>
+    
+                    </div>
+    
+                    <div class="talanted-2 talanteds">
+                        
+                        <div class="talanted-img" id="talanted-img2"><img src="gallery/Talanted_IMG/2.jpg" alt="Talanted"></div>
+                        <div class="talanted-social-media" id="talanted-social-media2">
+                            <img src="gallery/Home/facebook_icon.png" alt="facebook">
+                            <img src="gallery/Home/youtube_icon.png" alt="youtube">
+                            <img src="gallery/Home/instagram_icon.png" alt="instagram">
+                            <img src="gallery/Home/twitter_icon.png" alt="twitter">
+                        </div>
+                        <div class="talanted-name">Anna Kozlova<br><span>CEO</span></div>
+    
+                    </div>
+    
+                    <div class="talanted-3 talanteds">
+                        
+                        <div class="talanted-img" id="talanted-img3"><img src="gallery/Talanted_IMG/3.jpg" alt="Talanted"></div>
+                        <div class="talanted-social-media" id="talanted-social-media3">
+                            <img src="gallery/Home/facebook_icon.png" alt="facebook">
+                            <img src="gallery/Home/youtube_icon.png" alt="youtube">
+                            <img src="gallery/Home/instagram_icon.png" alt="instagram">
+                            <img src="gallery/Home/twitter_icon.png" alt="twitter">
+                        </div>
+                        <div class="talanted-name">Dmitriy Sokolov<br><span>Manager</span></div>
+    
+                    </div>
+    
+                </div>
+    
+                <a href="#">See All Team Members</a>
+    
+            </div>
+    
+        </div>
+
+    </div>
+
+    <div class="frequently" id="frequently">
+
+        <div class="frequently-background">
+
+            <div class="frequently-container">
+    
+                <h1><div class="circle"></div>Frequently Asked Questions</h1>
+                <p>
+                    This is the section where you will find answers to the most common requests of our customers.
+                    We have gathered here information about our services,<br>the consulting process and other questions
+                    that customers may have. If you want to learn more about our work or have not found an answer<br>to
+                    your question, do not hesitate to contact our team of consultants. Our goal is to providecustomers
+                    with all the necessary information<br>and make their experience with us as convenient and productive
+                    as possible.
+                    <br><span>● ● ●</span>
+                </p>
+    
+                <div class="why">
+    
+                    <div class="why-content">
+    
+                        <div class="why-question" id="why-question">
+                            <h2>Are Your Service Easy To Use?<span id="pm">+</span></h2>
+                        </div>
+    
+                        <div class="why-text" id="why-text">
+                            <p>
+                                Yes, our service is very easy to use. We have designed it with the user's needs in mind
+                                to make the process as intuitive as possible. Our interface is friendly and easy to
+                                navigate, which makes using our service convenient for all users, regardless of their
+                                level of experience or technical skills. We also provide detailed documentation and online
+                                support to provide our customers with the maximum convenience when using our service.
+                            </p>
+                        </div>
+    
+                    </div>
+    
+                    <div class="why-content">
+    
+                        <div class="why-question" id="why-question2">
+                            <h2>How Much I Will Pay?<span id="pm2">+</span></h2>
+                        </div>
+    
+                        <div class="why-text" id="why-text2">
+                            <p>
+                                The cost of our services depends on the specific needs and the amount of work required.
+                                We offer a flexible pricing policy that ensures transparency and fairness for our
+                                customers. To clarify the exact prices, we recommend contacting us for an individual
+                                consultation so that we can assess your needs and offer the most appropriate solution
+                                that suits your budget. We can also discuss various payment options and make sure they
+                                match your capabilities.
+                            </p>
+                        </div>
+    
+                    </div>
+    
+                    <div class="why-content">
+    
+                        <div class="why-question" id="why-question3">
+                            <h2>Is This Services Work In My Country?<span id="pm3">+</span></h2>
+                        </div>
+    
+                        <div class="why-text" id="why-text3">
+                            <p>
+                                Yes, our services are available in many countries around the world. We strive to provide
+                                global coverage so that customers from all over the world can use our services. We also
+                                have different communication methods and provide support in different languages to meet
+                                the needs of our customers in different regions. Please contact us to clarify whether our
+                                services and support are available in your country, and we will be happy to provide you
+                                with detailed information about this.
+                            </p>
+                        </div>
+    
+                    </div>
+    
+                    <div class="why-content">
+    
+                        <div class="why-question" id="why-question4">
+                            <h2>Are Theres Other Fees?<span id="pm4">+</span></h2>
+                        </div>
+    
+                        <div class="why-text" id="why-text4">
+                            <p>
+                                Our services usually have a transparent pricing model, and we
+                                strive to provide all the necessary information about possible
+                                additional fees in advance. There may be additional costs, such
+                                as taxes or payments for specific additional services, and we will
+                                definitely inform you about them before starting work. We value
+                                transparency in dealing with our customers, so if you have any
+                                questions about possible additional fees, please contact our
+                                representative so that we can discuss this in more detail.
+                            </p>
+                        </div>
+    
+                    </div>
+    
+                    <div class="why-content">
+    
+                        <div class="why-question" id="why-question5">
+                            <h2>Will I Receive Future Updates?<span id="pm5">+</span></h2>
+                        </div>
+    
+                        <div class="why-text" id="why-text5">
+                            <p>
+                                Yes, we always strive to provide our customers with constant updates and improvements to
+                                our services. We appreciate feedback from our customers and are actively working to
+                                improve our products and services. In addition, we regularly inform customers about
+                                updates, new features and changes through our information channels such as email, blogs
+                                or newsletters. We strive to maintain long-term relationships with our clients by
+                                providing them with up-to-date information and updates that may be useful for their
+                                activities.
+                            </p>
+                        </div>
+    
+                    </div>
+    
+                    <div class="why-content">
+    
+                        <div class="why-question" id="why-question6">
+                            <h2>How Can I Sign Up The Contract?<span id="pm6">+</span></h2>
+                        </div>
+    
+                        <div class="why-text" id="why-text6">
+                            <p>
+                                There are several ways to register a contact with our company. Firstly, you can fill out the feedback form on our website, providing the necessary information, and our manager will contact you as soon as possible.
+                                If you have any communication preferences, you can contact us by e-mail or by the phone number listed on our website, and our support team will help you register your contact for further interaction.
+                                We can also invite you to register through our official social media accounts if it is more convenient for you.
+                                We are ready to provide you with various contact registration options to meet your needs.
+                            </p>
+                        </div>
+    
+                    </div>
+    
+                </div>
+
+                <form action="">
+
+                    <div class="form">
+
+                        <div class="form-title">
+                            <div class="form-p">STILL HAVE MORE QUESTIONS? <span id="small-circle">●</span></div>
+                            <h1><div class="circle" id="circle"></div>We Are Ready To Deliver More Answers</h1>
+                        </div>
+
+                        <div class="form-input">
+                            <div class="form-bio">
+                                <label>Name <span>*</span><br>
+                                    <input type="text" id="yourName" required>
+                                </label>
+                                <label>E-Mail <span>*</span><br>
+                                    <input type="email" id="yourEmail" required>
+                                </label>
+                            </div>
+                            <div class="form-message">
+                                <label>Subject <span>*</span><br>
+                                    <input type="text" id="yourSubject" required>
+                                </label>
+                                <label>Your Message <span>*</span><br>
+                                    <textarea id="yourMessage"></textarea>
+                                </label>
+                                <button type="submit" id="send-button">Send Your Message</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </form>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer">
+
+                <div class="about">
+                    <h2>About Consulto</h2>
+                    <p>Our consulting company is a team of<br>experienced professionals who are ready to<br>help you
+                        achieve your business goals.
+                    </p>
+                </div>
+
+                <div class="about-sm">
+                    <a href="#"><img class="about-sm-img" src="gallery/Home/facebook_icon.png" alt="facebook"></a>
+                    <a href="#"><img class="about-sm-img" src="gallery/Home/youtube_icon.png" alt="youtube"></a>
+                    <a href="#"><img class="about-sm-img" src="gallery/Home/instagram_icon.png" alt="instagram"></a>
+                    <a href="#"><img class="about-sm-img" src="gallery/Home/twitter_icon.png" alt="twitter"></a>
+                </div>
+
+                <div class="useful">
+                    <h2>Useful Links</h2>
+                    <a href="#">Google</a>
+                    <a href="#">Dribbble</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Wikipiddia</a>
+                </div>
+    
+                <div class="resources">
+                    <h2>Resources</h2>
+                    <a href="#">Support</a>
+                    <a href="#">Dashboard</a>
+                    <a href="#">Drivers</a>
+                    <a href="#">Projects</a>
+                </div>
+    
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <a href="mailto:example@support.com">example@support.com</a>
+                    <a href="#">www.yoursite.com</a>
+                    <a href="#">5 xyz st., abc, alexandria, egypt.</a>
+                    <a href="tel:+20123456789">+20123456789</a>
+                </div>
+
+            </div>
+
+            <div class="by">
+
+                <div class="created"><p>© 2020 Created by: <a href="#">mhmd amin</a></p></div>
+
+                <div class="terms"><a href="#">Terms of Use</a> <span>|</span> <a href="#">Privacy Policy</a></div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/error404.js"></script>
+
+    </div>
+</body>
+</html>

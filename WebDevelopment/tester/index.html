@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+        <h1>Вопрос 1:</h1>
+        <h1>На каком языке написан HTML</h1>
+        <h2 id="sub-title1"></h2>
+        <div class="answer" id="answer1">Английский</div>
+        <div class="btns">
+            <button class="btn" id="english" onclick="chooseAnswer('sub-title1', 'english')">Английский</button>
+            <button class="btn" id="russian" onclick="chooseAnswer('sub-title1', 'russian')">Русский</button>
+            <button class="btn" id="tajik" onclick="chooseAnswer('sub-title1', 'tajik')">Таджикский</button>
+            <button class="btn" id="france" onclick="chooseAnswer('sub-title1', 'france')">Французский</button>
+        </div>
+        <button class="btn" onclick="checkAnswer('sub-title1', 'answer1')">Проверка</button>
+    </div>
+
+    <div class="main">
+        <h1>Вопрос 2:</h1>
+        <h1>С помощью чего стилизируют сайты</h1>
+        <h2 id="sub-title2"></h2>
+        <div class="answer" id="answer2">CSS</div>
+        <div class="btns">
+            <button class="btn" id="html" onclick="chooseAnswer('sub-title2','html')">HTML</button>
+            <button class="btn" id="css" onclick="chooseAnswer('sub-title2','css')">CSS</button>
+            <button class="btn" id="python" onclick="chooseAnswer('sub-title2','python')">Python</button>
+            <button class="btn" id="java" onclick="chooseAnswer('sub-title2','java')">Java</button>
+        </div>
+        <button class="btn" onclick="checkAnswer('sub-title2', 'answer2')">Проверка</button>
+    </div>
+
+    <div class="main">
+        <h1>Вопрос 3:</h1>
+        <h1></h1>
+        <h1>С помощью чего сайт оживляется?</h1>
+        <h2 id="sub-title3"></h2>
+        <div class="answer" id="answer3">JavaScript</div>
+        <div class="btns">
+            <button class="btn" id="cpp" onclick="chooseAnswer('sub-title3','cpp')">C++</button>
+            <button class="btn" id="java" onclick="chooseAnswer('sub-title3','java')">Java</button>
+            <button class="btn" id="html" onclick="chooseAnswer('sub-title3','html')">Html</button>
+            <button class="btn" id="js" onclick="chooseAnswer('sub-title3','js')">JavaScript</button>
+        </div>
+        <button class="btn" onclick="checkAnswer('sub-title3', 'answer3')">Проверка</button>
+    </div>
+
+    <div class="main">
+        <h1>Вопрос 4:</h1>
+        <h1>Какой тег HTML помогает делать обзац?</h1>
+        <h2 id="sub-title4"></h2>
+        <div class="answer" id="answer4">"br"</div>
+        <div class="btns">
+            <button class="btn" id="hr" onclick="chooseAnswer('sub-title4','hr')">"hr"</button>
+            <button class="btn" id="p" onclick="chooseAnswer('sub-title4','p')">"p"</button>
+            <button class="btn" id="br" onclick="chooseAnswer('sub-title4','br')">"br"</button>
+            <button class="btn" id="h1" onclick="chooseAnswer('sub-title4','h1')">"h1"</button>
+        </div>
+        <button class="btn" onclick="checkAnswer('sub-title4', 'answer4')">Проверка</button>
+    </div>
+
+    <div class="main">
+        <h1>Вопрос 5:</h1>
+        <h1>Как расшифровывается HTML?</h1>
+        <h2 id="sub-title5"></h2>
+        <div class="answer" id="answer5">HyperTextMarkup Language</div>
+        <div class="btns">
+            <button class="btn" id="HTML" onclick="chooseAnswer('sub-title5','HTML')">HyperTextMarkup Language</button>
+            <button class="btn" id="CSS" onclick="chooseAnswer('sub-title5','CSS')">Huper TextMarkap Language</button>
+            <button class="btn" id="JS" onclick="chooseAnswer('sub-title5','JS')">HyperTextMarkup Learn</button>
+            <button class="btn" id="JAVA" onclick="chooseAnswer('sub-title5','JAVA')">HiperTextyMarkip Languages</button>
+        </div>
+        <button class="btn" onclick="checkAnswer('sub-title5', 'answer5')">Проверка</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

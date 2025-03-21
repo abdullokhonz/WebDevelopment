@@ -1,0 +1,14 @@
+D:\My files\Web development\YouTube\C# Lesson\lesson 1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.exe
+D:\My files\Web development\YouTube\C# Lesson\lesson 1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.deps.json
+D:\My files\Web development\YouTube\C# Lesson\lesson 1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.runtimeconfig.json
+D:\My files\Web development\YouTube\C# Lesson\lesson 1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll
+D:\My files\Web development\YouTube\C# Lesson\lesson 1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.pdb
+D:\My files\Web development\YouTube\C# Lesson\lesson 1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\My files\Web development\YouTube\C# Lesson\lesson 1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfoInputs.cache
+D:\My files\Web development\YouTube\C# Lesson\lesson 1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfo.cs
+D:\My files\Web development\YouTube\C# Lesson\lesson 1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\My files\Web development\YouTube\C# Lesson\lesson 1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.dll
+D:\My files\Web development\YouTube\C# Lesson\lesson 1\ConsoleApp1\obj\Debug\net8.0\refint\ConsoleApp1.dll
+D:\My files\Web development\YouTube\C# Lesson\lesson 1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb
+D:\My files\Web development\YouTube\C# Lesson\lesson 1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
+D:\My files\Web development\YouTube\C# Lesson\lesson 1\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll

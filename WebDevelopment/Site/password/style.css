@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+*::selection {
+    background-color: #ff0000;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://wallpapercave.com/wp/wp7080756.jpg) center no-repeat;
+    background-size: cover;
+    backdrop-filter: brightness(.8);
+}
+
+.container {
+    min-width: 350px;
+    height: 500px;
+    background-color: rgba(250, 0, 0, .5);
+    backdrop-filter: blur(8px);
+    border: 2.5px groove red;
+    border-radius: 12px;
+    box-shadow: 0px 0px 50px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 64px;
+
+    transition: all .1s linear;
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 5px 5px 25px, -5px -5px 25px;
+
+    transition: all .1s linear;
+}
+
+.h1-true {
+    color: #00ff11;
+}
+
+.h1-false {
+    color: #ff0000;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#div2 {
+    display: none;
+}
+
+input {
+    color: #fff;
+    width: 300px;
+    height: 32px;
+    outline: none;
+    border: 2.5px groove red;
+    border-radius: 12px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: 0px 0px 10px red;
+
+    transition: all .1s linear;
+}
+
+button {
+    color: #fff;
+    width: 300px;
+    height: 32px;
+    border: 2.5px groove red;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(4px);
+    box-shadow: 0px 0px 10px red;
+
+    transition: all .1s linear;
+}
+
+h1:active {
+    transform: scale(1.025);
+}
+
+input:focus {
+    border: 2.5px dashed red;
+    background-color: rgba(255, 255, 255, .5);
+    box-shadow: 0px 0px 20px red;
+}
+
+button:active {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 20px red;
+}
+
+@media (hover: hover) {
+    h1:hover {
+        transform: scale(1.025);
+    }
+
+    input:hover {
+        border: 2.5px dashed red;
+        background-color: rgba(255, 255, 255, .5);
+        box-shadow: 0px 0px 20px red;
+    }
+
+    button:hover {
+        color: #000;
+        background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 0px 0px 20px red;
+    }
+}

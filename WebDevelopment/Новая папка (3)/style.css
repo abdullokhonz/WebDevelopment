@@ -1,0 +1,11 @@
+.main{
+  border: solid 1px black;
+  background-color: aqua;
+  width: 600px;
+  height: 600px;
+}
+
+.item{
+  padding-left: 100px;
+  padding-top: 100px
+}

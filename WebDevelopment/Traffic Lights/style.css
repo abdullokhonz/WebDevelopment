@@ -1,0 +1,72 @@
+body {
+    background-color: coral;
+}
+
+.background {
+    position: relative;
+    width: 225px;
+    height: 490px;
+    content: '';
+    background: black;
+    border-radius: 30px;
+}
+
+.red {
+    position: absolute;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: gray;
+    margin-top: -480px;
+    margin-left: 35px;
+    animation: redColorAnimate 6s linear 2s;
+}
+
+@keyframes redColorAnimate {
+    from {
+        background: red;
+    }
+    to {
+        background: red;
+    }
+}
+
+.yellow {
+    position: absolute;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: gray;
+    margin-top: -320px;
+    margin-left: 35px;
+    animation: yellowColorAnimate 3s linear 8s;
+}
+
+@keyframes yellowColorAnimate {
+    from {
+        background: yellow;
+    }
+    to {
+        background: yellow;
+    }
+}
+
+.green {
+    position: absolute;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: gray;
+    margin-top: -160px;
+    margin-left: 35px;
+    animation: greenColorAnimate 6s linear 11s;
+}
+
+@keyframes greenColorAnimate {
+    from {
+        background: green;
+    }
+    to {
+        background: green;
+    }
+}

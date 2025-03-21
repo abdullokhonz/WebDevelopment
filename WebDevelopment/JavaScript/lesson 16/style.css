@@ -1,0 +1,44 @@
+form {
+    margin: 50px 500px 0px 500px;
+    background-color: gray;
+    padding: 15px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+#num1 {
+    margin: 10px 10px;
+    border-radius: 15px;
+    float: left;
+}
+
+#num2 {
+    margin :10px 10px;
+    border-radius: 15px;
+}
+
+.plus {
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.minus {
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.multiple {
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.divide {
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 5px;
+}
