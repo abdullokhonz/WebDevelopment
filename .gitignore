@@ -1,2 +1,7 @@
 .idea/
 .vs/
+.venv/
+obj/
+bin/
+.gradle/
+__pycache__/
