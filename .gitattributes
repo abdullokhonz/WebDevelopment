@@ -1,0 +1,21 @@
+# Kotlin файлы
+*.kt text diff=kotlin
+*.kts text diff=kotlin
+
+# Java файлы
+*.java text diff=java
+
+# Python файлы (если это нужно)
+*.py text diff=python
+
+# HTML файлы (если это нужно)
+*.html text diff=html
+
+# CSS файлы (если это нужно)
+*.css text diff=css
+
+# JavaScript файлы (если это нужно)
+*.js text diff=javascript
+
+# C# файлы (если это нужно)
+*.cs text diff=csharp
